@@ -1,6 +1,6 @@
 import { Application } from "./node_modules/@hotwired/stimulus/dist/stimulus.js"
 
-import HelloController from "./controllers/hello_controller.js"
+import ExperienceController from "./js/experience_controller.js"
 
 window.Stimulus = Application.start()
-Stimulus.register("hello", HelloController)
+Stimulus.register("experience", ExperienceController)
