@@ -16,15 +16,20 @@ export default class {
 
   static versions = [
     {
-      name: "tech",
-      title: "Technology",
-      urlParam: "tech",
+      name: "all",
+      title: "All",
+      urlParam: "all"
+    },
+    {
+      name: "senior-engineer",
+      title: "Senior engineer",
+      urlParam: "senior-engineer",
       content: ["aba-session", "b", "c"]
     },
     {
-      name: "real_estate",
-      title: "Real Estate",
-      urlParam: "re",
+      name: "engineering-manager",
+      title: "Engineering manager",
+      urlParam: "engineering-manager",
       content: ["real_estate", "b", "c"]
     },
   ]

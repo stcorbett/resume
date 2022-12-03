@@ -2,10 +2,11 @@ import { Controller } from "../node_modules/@hotwired/stimulus/dist/stimulus.js"
 import Content from "./content.js"
 
 export default class extends Controller {
-  static targets = ["itemTemplate"]
+  static targets = ["itemTemplate", "versionPicker", "versionItemTemplate"]
 
   connect () {
     this.key = window.location.search.split("?")[1]
+    this.pathname = window.location.pathname
 
     this.render()
   }
@@ -19,6 +20,9 @@ export default class extends Controller {
   }
 
   content() {
+    if((this.key || '') == '') {
+      return []
+    }
     if(this.filter() == 'all') {
       return Content.experiences
     }
@@ -59,6 +63,16 @@ export default class extends Controller {
   }
 
   renderExperiencesPicker() {
-    console.log("rendering picker")
+    this.versionPickerTarget.classList.remove('d-none')
+
+    Content.versions.forEach(version => {
+      let item = this.versionItemTemplateTarget.content.cloneNode(true)
+      let anchor = item.querySelector("a")
+
+      anchor.href = this.pathname +  `?${version.urlParam}`
+      anchor.textContent = version.title
+
+      this.versionItemTemplateTarget.before(item)
+    })
   }
 }
