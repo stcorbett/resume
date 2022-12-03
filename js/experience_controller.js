@@ -38,10 +38,24 @@ export default class extends Controller {
 
       item.querySelector('[data-content="title"]').innerHTML = experience.title
       item.querySelector('[data-content="role"]').innerHTML = experience.role
-      item.querySelector('[data-content="content-li"]').innerHTML = experience.content[0]
+      item = this.renderExperienceDetail(item, experience)
 
       this.itemTemplateTarget.after(item)
     });
+  }
+
+  renderExperienceDetail(item, experience) {
+    let itemLi = item.querySelector('[data-content="content-li"]')
+    let detailLi
+
+    experience.content.forEach(detail => {
+      detailLi = itemLi.cloneNode(true)
+      detailLi.innerHTML = detail
+      itemLi.before(detailLi)
+    })
+
+    itemLi.remove()
+    return item
   }
 
   renderExperiencesPicker() {
