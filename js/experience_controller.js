@@ -44,7 +44,7 @@ export default class extends Controller {
       item.querySelector('[data-content="role"]').innerHTML = experience.role
       item = this.renderExperienceDetail(item, experience)
 
-      this.itemTemplateTarget.after(item)
+      this.itemTemplateTarget.before(item)
     });
   }
 
