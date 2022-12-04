@@ -12,6 +12,31 @@ export default class {
     },
 
     {
+      name: "crafty",
+      title: "Crafty Machine",
+      role: "Principal Consultant, 2009-present",
+      content: [
+        "GFS project - fast setup",
+        "GFS project - built to fit the client's needs",
+        "GFS project - configurable by admins",
+        "GFS project - delivers large queries quickly",
+        "GFS project - scales to concurrent users",
+      ]
+    },
+
+    {
+      name: "mohawk",
+      title: "Mohawk St. AirBnB",
+      role: "Team Leader, 2017-present",
+      content: [
+        "revenue numbers and 100% y/y growth",
+        "co-design the asthetics",
+        "build and manage operational team - fun, positive, personal growth",
+        "Integrate guest interaction automation - superhost",
+      ]
+    },
+
+    {
       name: "provi",
       title: "Provi",
       role: "Engineering Leader, 2019",
@@ -64,6 +89,17 @@ export default class {
       ]
     },
 
+    {
+      name: "hms",
+      title: "Have My Shift",
+      role: "Founder and CTO, 2008-9 &nbsp; CEO, 2009-11",
+      content: [
+        "built from scratch in a weekend",
+        "supported hundreds of DAUs",
+        "Influenced Uber's business model through conversations with former CEO (UberX 2012)",
+      ]
+    },
+
   ]
 
   static versions = [
@@ -76,13 +112,13 @@ export default class {
       name: "senior-engineer",
       title: "Senior engineer",
       urlParam: "senior-engineer",
-      content: ["aba-session", "provi", "hire-abby", "tmlp", "fibroblast", "enova"]
+      content: ["aba-session", "crafty", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
     {
       name: "engineering-manager",
       title: "Engineering manager",
       urlParam: "engineering-manager",
-      content: ["aba-session", "provi", "hire-abby", "tmlp", "fibroblast", "enova"]
+      content: ["aba-session", "mohawk", "provi", "hire-abby", "tmlp", "fibroblast", "enova"]
     },
   ]
 
