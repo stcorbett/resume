@@ -80,6 +80,7 @@
           <div class="col">
             <h2>Performance Alignment</h2>
             <ul class="">
+              <li>tell stories here</li>
               <li>Listening to individuals and groups to understand what is missing</li>
               <li>Leadership from trust and authenticity</li>
               <li>Designing software experiences that satisfy people's needs</li>
@@ -137,14 +138,14 @@
           </div>
         </h2>
 
-        <div class="" data-controller="experience">
-          <template id="experience-item" data-experience-target='itemTemplate'>
+        <div class="" data-controller="content" data-content-library-value="experiences">
+          <template data-content-target='itemTemplate'>
             <div class="row">
               <div class="col mx-auto" style="max-width: 992px;">
                 <h3>
                   <span data-content='title'>
                   </span>
-                  <span class="h5" data-content='role'>
+                  <span class="h5" data-content='subTitle'>
                   </span>
                 </h3>
                 <ul class="fs-6 fs-lg-5" data-content='content'>
@@ -155,10 +156,10 @@
             </div>
           </template>
 
-          <div class="d-none row" data-experience-target='versionPicker'>
+          <div class="d-none row" data-controller="key-picker">
             <div class="col">
               <ul class="list-unstyled">
-                <template id="" data-experience-target='versionItemTemplate'>
+                <template id="" data-key-picker-target='versionItemTemplate'>
                   <li>
                     <a href="#">
 
@@ -213,6 +214,30 @@
           </div>
         </div>
 
+        <h2>
+          <div class="center-separator">
+            Community
+          </div>
+        </h2>
+
+        <div class="row" data-controller="content" data-content-library-value="community" data-content-all-value="true">
+          <template data-content-target='itemTemplate'>
+            <div class="col-md-6">
+              <h4>
+                <span data-content='title'>
+                </span>
+                <span class="h6" data-content='subTitle'>
+                </span>
+              </h4>
+
+              <ul class="" data-content='content'>
+                <li data-content='content-li'>
+                </li>
+              </ul>
+            </div>
+          </template>
+        </div>
+
 
       </div> <!-- /container -->
 
@@ -220,7 +245,7 @@
         <ul class="list-unstyled">
           <li>Enhancing life via Technology - Applied leadership at the interface of Technology and Business</li>
           <li>Transforming teams to reach for their future and accomplish their goals</li>
-          <li>This minimalist interactive page is <a target="_blank" href="https://github.com/stcorbett/resume">on github</a></li>
+          <li>This interactive page is <a target="_blank" href="https://github.com/stcorbett/resume">on github</a></li>
           <li>
             (312) 217-1557 - stcorbett@gmail.com - <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
           </li>
