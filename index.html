@@ -45,9 +45,22 @@
         margin-left: 1rem;
       }
 
+      select {
+        border: none;
+        font-size: 1rem;
+      }
+
+      select:focus {
+        outline-color: #ccc;
+      }
+
       @media print {
         body {
           font-size: 1.25rem;
+        }
+
+        .screen-only {
+          display: none;
         }
       }
       @media (min-width: 992px) {
@@ -67,7 +80,7 @@
           <p>
             Impact driven Technology Leader and Systems Thinker
             <br/>
-            Seeking roles in <span style="font-weight: 600;">engineering management</span> and <span style="font-weight: 600;">team leadership</span>
+            Seeking roles in <span style="font-weight: 600;">engineering, management</span> and <span style="font-weight: 600;">team leadership</span>
             <br/>
             <a target="_blank" href="https://github.com/stcorbett">GitHub</a> -
             <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
@@ -80,18 +93,41 @@
           <div class="col">
             <h2>Performance Alignment</h2>
             <ul class="">
-              <li>tell stories here</li>
-              <li>Listening to individuals and groups to understand what is missing</li>
-              <li>Leadership from trust and authenticity</li>
-              <li>Designing software experiences that satisfy people's needs</li>
+              <li>
+                <span class="font-weight-bold">Listening to individuals and groups to understand what is missing</span>
+                <div>I create the conditions for partners and employees to perform at higher levels than they knew they were capable of</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Leadership from trust and authenticity</span>
+                <div>
+                  I lead from my strenghts with awareness of my weaknesses - people around me have less emotional overhead and
+                  are inspired by what we are accomplishing
+                </div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Designing software experiences that satisfy people's needs</span>
+                <div>
+                  I am focused on the product, holistically. My teams find solutions that cost less and are more effective
+                  than what might be obvious
+                </div>
+              </li>
             </ul>
           </div>
           <div class="col">
             <h2>Cultural Alignment</h2>
             <ul class="">
-              <li>Foundation of communication</li>
-              <li>People orientation</li>
-              <li>Innovation: experimentation and risk-taking</li>
+              <li>
+                <span class="font-weight-bold">Foundation of communication</span>
+                <div>My first response is to communicate, aligning me with "ask" culture - which can cause confusion for people who align with "guess" culture</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">People orientation</span>
+                <div>I'm in it for the good of the team, the company, and the world - I have caused confusion for people who focus on individual outcomes</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Innovation: experimentation and risk-taking</span>
+                <div>Learning and creating are primary drivers for me. I'd rather play the long game on a big scale than the short game</div>
+              </li>
             </ul>
           </div>
         </div>
@@ -132,6 +168,7 @@
         </div>
 
 
+
         <h2>
           <div class="center-separator">
             Experience
@@ -139,6 +176,19 @@
         </h2>
 
         <div class="" data-controller="content" data-content-library-value="experiences">
+          <div class="screen-only d-none" data-controller="key-select">
+            <div class="d-flex justify-content-end">
+              <select
+                data-action="change->key-select#change"
+                data-key-select-target="select"
+              >
+                <option value="all">All</option>
+                <option value="senior-engineer">Engineering</option>
+                <option value="engineering-manager">Engineering management</option>
+              </select>
+            </div>
+          </div>
+
           <template data-content-target='itemTemplate'>
             <div class="row">
               <div class="col mx-auto" style="max-width: 992px;">
