@@ -42,7 +42,9 @@ export default class extends Controller {
       let item = this.itemTemplateTarget.content.cloneNode(true)
 
       item.querySelector('[data-content="title"]').innerHTML = contentItem.title
-      if((item.subTitle || '').length > 0) { item.querySelector('[data-content="subTitle"]').innerHTML = contentItem.subTitle }
+      if((contentItem.subTitle || '').length > 0) {
+        item.querySelector('[data-content="subTitle"]').innerHTML = contentItem.subTitle
+      }
 
       item = this.renderDetail(item, contentItem)
 
