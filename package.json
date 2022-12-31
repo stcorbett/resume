@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hotwired/stimulus": "^3.1.1",
     "bootstrap": "^4.3.1"
   }
 }

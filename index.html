@@ -6,6 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <script type="module" src="./application.js"></script>
+
     <title>Sean Corbett | Leadership in Technology Organizations</title>
 
     <!-- Bootstrap core CSS -->
@@ -16,10 +18,7 @@
         font-size: 1rem;
       }
 
-      .jumbotron {
-      }
-
-      .sans{
+      .sans {
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
       }
 
@@ -46,9 +45,27 @@
         margin-left: 1rem;
       }
 
+      select {
+        border: none;
+        font-size: 1rem;
+      }
+
+      select:focus {
+        outline-color: #ccc;
+      }
+
       @media print {
         body {
           font-size: 1.25rem;
+        }
+
+        .screen-only {
+          display: none;
+        }
+      }
+      @media (min-width: 992px) {
+        .fs-lg-5 {
+          font-size: 1.25rem !important;
         }
       }
     </style>
@@ -57,14 +74,13 @@
   <body>
     <main role="main" style="page-break-after: always; page-break-inside: avoid;">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" style="background-color: transparent; padding-bottom: 0; padding-top: 1rem;">
         <div class="container text-center">
           <h1 class="display-3 sans">Sean Corbett</h1>
           <p>
             Impact driven Technology Leader and Systems Thinker
             <br/>
-            Seeking roles in <span style="font-weight: 600;">engineering management</span> and <span style="font-weight: 600;">team leadership</span>
+            Seeking roles in <span style="font-weight: 600;">engineering, management</span> and <span style="font-weight: 600;">team leadership</span>
             <br/>
             <a target="_blank" href="https://github.com/stcorbett">GitHub</a> -
             <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
@@ -75,19 +91,43 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2>Performance Keys</h2>
+            <h2>Performance Alignment</h2>
             <ul class="">
-              <li>Listening to individuals and groups to understand what is missing</li>
-              <li>Leadership from trust and authenticity</li>
-              <li>Designing software experiences that satisfy people's needs</li>
+              <li>
+                <span class="font-weight-bold">Listening to individuals and groups to understand what is missing</span>
+                <div>I create the conditions for partners and employees to perform at higher levels than they knew they were capable of</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Leadership from trust and authenticity</span>
+                <div>
+                  I lead from my strengths with awareness of my weaknesses - people around me have less emotional overhead and
+                  are inspired by what we are accomplishing
+                </div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Designing software experiences that satisfy people's needs</span>
+                <div>
+                  I am focused on the product, holistically. My teams find solutions that cost less and are more effective
+                  than what might be obvious
+                </div>
+              </li>
             </ul>
           </div>
           <div class="col">
-            <h2>Cultural Keys</h2>
+            <h2>Cultural Alignment</h2>
             <ul class="">
-              <li>Foundation of communication</li>
-              <li>People orientation</li>
-              <li>Innovation: experimentation and risk-taking</li>
+              <li>
+                <span class="font-weight-bold">Foundation of communication</span>
+                <div>My first response is to communicate, aligning me with "ask" culture - which can cause confusion for people who align with "guess" culture</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">People orientation</span>
+                <div>I'm in it for the good of the team, the company, and the world - I have caused confusion for people who focus on individual outcomes</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Innovation: experimentation and risk-taking</span>
+                <div>Learning and creating are primary drivers for me. I'd rather play the long game on a big scale than the short game</div>
+              </li>
             </ul>
           </div>
         </div>
@@ -127,135 +167,57 @@
           </div>
         </div>
 
+
+
         <h2>
           <div class="center-separator">
             Experience
           </div>
         </h2>
 
-        <div class="row">
-          <div class="col">
-            <h4>
-              ABA Session
-              <span class="h6">
-                Founder and CEO, 2020-2022 &nbsp; Advisor 2022-present
-              </span>
-            </h4>
-            <p>
-              Transforming a healthcare niche with software tools.
-              Co-designed with users, developed the product, hired and managed engineering and operational teams.<br/>
-              Mentored recent CS graduates on the engineering team, leading them to become proficient software engineers.
-            </p>
+        <div class="" data-controller="content" data-content-library-value="experiences">
+          <div class="screen-only d-none" data-controller="key-select">
+            <div class="d-flex justify-content-end">
+              <select
+                data-action="change->key-select#change"
+                data-key-select-target="select"
+              >
+                <option value="all">All</option>
+                <option value="senior-engineer">Engineering</option>
+                <option value="engineering-manager">Engineering management</option>
+              </select>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col">
-            <h4>
-              Provi
-              <span class="h6">
-                Engineering Leader, 2019
-              </span>
-            </h4>
-            <p>
-              Creating a company culture of individual ownership of the business's success.
-              Coached a team of five to communicate clearly with business owners and
-              shift product vision to long-term company objectives.
-            </p>
-          </div>
-        </div>
+          <template data-content-target='itemTemplate'>
+            <div class="row">
+              <div class="col mx-auto" style="max-width: 992px;">
+                <h3>
+                  <span data-content='title'>
+                  </span>
+                  <span class="h5" data-content='subTitle'>
+                  </span>
+                </h3>
+                <ul class="fs-6 fs-lg-5" data-content='content'>
+                  <li data-content='content-li'>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </template>
 
-        <div class="row">
-          <div class="col">
-            <h4>
-              Hire Abby
-              <span class="h6">
-                Founder and CTO, 2016-19
-              </span>
-            </h4>
-            <p>
-              Created a system that delivers candidate engagement with an 80% cost reduction in half the time as the industry standard.
-              Sold a six-figure software licensing agreement to a Fortune-500 firm.
-            </p>
-          </div>
-        </div>
+          <div class="d-none row" data-controller="key-picker">
+            <div class="col">
+              <ul class="list-unstyled">
+                <template id="" data-key-picker-target='versionItemTemplate'>
+                  <li>
+                    <a href="#">
 
-        <div class="row">
-          <div class="col">
-            <h4>
-              Team, Management, and Leadership Program
-              <span class="h6">
-                Team Leader, 2018-19
-              </span>
-            </h4>
-            <p>
-              Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using a
-              coaching management style. Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams.
-              Developed powerful leadership techniques from trust and authenticity.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <h4>
-              Fibroblast
-              <span class="h6">
-                Lead Engineer, 2013-14 &nbsp; Interim CTO, 2014-15
-              </span>
-            </h4>
-            <p>
-              Developed product offering that combined provider and payer value.
-              Culturally prepared the company for growth and acquisition by Cerner Corporation.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <h4>
-              Enova International
-              <span class="h6">
-                Senior Engineer, 2008-10 &nbsp; New initiatives consultant, 2011-13
-              </span>
-            </h4>
-            <p>
-              Covered the gamut of front end, UI, and integration with internal and external services.
-              Improved performance of internal services for post-processing customer credit applications.
-              Lead the team in rates of planned and completed work.
-            </p>
-          </div>
-        </div>
-
-        <div class="row mt-4">
-          <div class="col-md">
-            <h2>Entrepreneurial Moonshots</h2>
-            <ul class="">
-              <li>Hire Abby: Accelerating the Velocity of Employment</li>
-              <ul>
-                <li>Targeted distruption of the $14.6bn HR software market</li>
+                    </a>
+                  </li>
+                </template>
               </ul>
-              <li>HaveMyShift: Transforming the world of work</li>
-              <ul>
-                <li>Aimed for distrupting the $359m employee scheduling software market</li>
-                <li>Influenced Uber's business model through conversations with former CEO (UberX 2012)</li>
-                <li>Conversations with VCs catalyzed workforce management investments (Shyft 2016)</li>
-              </ul>
-            </ul>
-          </div>
-          <div class="col-md mt-4 mt-md-0">
-            <h2>Small Businesses</h2>
-            <ul>
-              <li>Mohawk St. AirBnB - team leader of five person operational team</li>
-              <ul>
-                <li>100% Y/Y growth at a 25% profit margin</li>
-                <li>An environment for creativity in a profitable, fun, and growing business</li>
-              </ul>
-              <li>Crafty Machine LLC</li>
-              <ul>
-                <li>Sold and delivered over $1m in Engineering RnD and product development services</li>
-              </ul>
-            </ul>
+            </div>
           </div>
         </div>
 
@@ -302,6 +264,30 @@
           </div>
         </div>
 
+        <h2>
+          <div class="center-separator">
+            Community
+          </div>
+        </h2>
+
+        <div class="row" data-controller="content" data-content-library-value="community" data-content-all-value="true">
+          <template data-content-target='itemTemplate'>
+            <div class="col-md-6">
+              <h4>
+                <span data-content='title'>
+                </span>
+                <span class="h6 d-block mb-0" data-content='subTitle'>
+                </span>
+              </h4>
+
+              <ul class="" data-content='content'>
+                <li data-content='content-li'>
+                </li>
+              </ul>
+            </div>
+          </template>
+        </div>
+
 
       </div> <!-- /container -->
 
@@ -309,6 +295,7 @@
         <ul class="list-unstyled">
           <li>Enhancing life via Technology - Applied leadership at the interface of Technology and Business</li>
           <li>Transforming teams to reach for their future and accomplish their goals</li>
+          <li>This interactive page is <a target="_blank" href="https://github.com/stcorbett/resume">on github</a></li>
           <li>
             (312) 217-1557 - stcorbett@gmail.com - <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
           </li>
