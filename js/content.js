@@ -4,6 +4,7 @@ export default class {
       name: "aba-session",
       title: "ABA Session",
       subTitle: "Founder and CEO, 2020-2022 &nbsp; Advisor 2022-present",
+      description: "Researched, designed, and developed a software platform for telehealth in Applied Behavior Analysis.",
       content: [
         "Delivered modern tools to hundres of users in an overlooked healthcare niche",
         "Co-designed with users, developed the product, hired and managed engineering and operational teams",
@@ -46,6 +47,7 @@ export default class {
       name: "crafty",
       title: "Crafty Machine",
       subTitle: "Principal Consultant, 2009-present",
+      description: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
       content: [
         "Delivered dozens of custom web applications for businesses expanding their market footprints",
         "Achieved 100% retention rate by focusing on alignment between client needs and software processes",
@@ -69,6 +71,7 @@ export default class {
       name: "newline",
       title: "Newline Financial",
       subTitle: "Director of Technology, 2020",
+      description: "Lead development of a business processes and financial analysis tool",
       content: [
         "Delivered a functional prototype of what had been a failing development project",
         "Built relationships with remote team and scaled them down over a 6 month timeline",
@@ -80,6 +83,7 @@ export default class {
       name: "provi",
       title: "Provi",
       subTitle: "Engineering Leader, 2019",
+      description: "Researched, designed, and implemented technology systems to support continued growth. Created culture of accountability and communication in the technology team",
       content: [
         "Created a culture of individual ownership of the business's success in the product and engineering teams",
         "Coached the five person engineering team on clearl communication with business owners",
@@ -242,6 +246,7 @@ export default class {
       name: "enova",
       title: "Enova International",
       subTitle: "Senior Engineer, 2008-10 &nbsp; New initiatives consultant, 2011-13",
+      description: "",
       content: [
         "Contributed to project successes in back end engineering projects, front end, UI, and internal and external service integrations",
         "Improved performance of internal services for post-processing customer credit applications reducing time to approval by 50%",
@@ -334,13 +339,13 @@ export default class {
       name: "senior-engineer",
       title: "Senior engineer",
       urlParam: "senior-engineer",
-      contentNames: ["aba-session", "crafty", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
     {
       name: "engineering-manager",
       title: "Engineering manager",
       urlParam: "engineering-manager",
-      contentNames: ["aba-session", "mohawk", "provi", "hire-abby", "tmlp", "fibroblast", "enova"]
+      contentNames: ["aba-session", "mohawk", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
   ]
 
