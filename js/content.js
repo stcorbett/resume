@@ -6,7 +6,7 @@ export default class {
       subTitle: "Founder and CEO, 2020-2022 &nbsp; Advisor 2022-present",
       description: "Researched, designed, and developed a software platform for telehealth in Applied Behavior Analysis.",
       content: [
-        "Delivered modern tools to hundres of users in an overlooked healthcare niche",
+        "Delivered modern tools to hundreds of users in an overlooked healthcare niche",
         "Co-designed with users, developed the product, hired and managed engineering and operational teams",
         "Mentored recent CS graduates on the engineering team, leading them to become proficient software engineers"
       ],
@@ -51,7 +51,7 @@ export default class {
       content: [
         "Delivered dozens of custom web applications for businesses expanding their market footprints",
         "Achieved 100% retention rate by focusing on alignment between client needs and software processes",
-        "Designed, implimented, and supported multiple applications with thousands of daily active users",
+        "Designed, implemented, and supported multiple applications with thousands of daily active users",
         "Experienced the results of design paradigms across the spectrum of software engineering"
       ]
     },
@@ -63,7 +63,7 @@ export default class {
       content: [
         "Achieved 100% y/y growth by focusing on customer needs and market dynamics",
         "Created a fun, positive working culture by focusing on personal growth",
-        "Achieved superhost status with automated guest interaction and hand picked operational team",
+        "Achieved superhost status with automated guest interaction and hand-picked operational team",
       ]
     },
 
@@ -71,7 +71,7 @@ export default class {
       name: "newline",
       title: "Newline Financial",
       subTitle: "Director of Technology, 2020",
-      description: "Lead development of a business processes and financial analysis tool",
+      description: "Lead development of a business process and financial analysis tool",
       content: [
         "Delivered a functional prototype of what had been a failing development project",
         "Built relationships with remote team and scaled them down over a 6 month timeline",
@@ -83,10 +83,10 @@ export default class {
       name: "provi",
       title: "Provi",
       subTitle: "Engineering Leader, 2019",
-      description: "Researched, designed, and implemented technology systems to support continued growth. Created culture of accountability and communication in the technology team",
+      description: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
         "Created a culture of individual ownership of the business's success in the product and engineering teams",
-        "Coached the five person engineering team on clearl communication with business owners",
+        "Coached the five person engineering team on clear communication with business owners",
         "Supported engineering and product teams in creating a product vision matched to the company's long-term strategy"
       ],
       stories: [
@@ -121,7 +121,7 @@ export default class {
           make the admin interface link directly to what was happeneing behind the scenes
 
           The team loved the new interface and immediately improved their performance
-          even before we implimented the feature.
+          even before we implemented the feature.
         `
       ]
     },
@@ -133,17 +133,17 @@ export default class {
       content: [
         "Built a series of production pilots, tested market applications for AI driven chat technology",
         "Created a system that delivered job candidate engagement with an 80% cost reduction in half the time as the industry standard",
-        "Sold six-figure software licensing agreements to Fortune-500"
+        "Sold six-figure software licensing agreements to Fortune 500"
       ],
       stories: [
         `
           L2IG-WM: business partner was ready to pull out of our first fortune 500 sales opportunity because
           the actual users didn't understand the product.
 
-          I worked with him to undderstand what was going on, what they were saying.
+          I worked with him to understand what was going on, what they were saying.
           Turns out, they didn't understand what the product was doing
           We designed a dashboard together that would allow them to see the internals enough
-          to understand how it workeed and use it for themselves
+          to understand how it worked and use it for themselves
 
           At the pitch the next day, the holdout users were sold about the new dashboard and we closed the deal!
         `,
@@ -248,7 +248,7 @@ export default class {
       subTitle: "Senior Engineer, 2008-10 &nbsp; New initiatives consultant, 2011-13",
       description: "",
       content: [
-        "Contributed to project successes in back end engineering projects, front end, UI, and internal and external service integrations",
+        "Contributed to project successes in back-end engineering projects, front-end, UI, and internal and external service integrations",
         "Improved performance of internal services for post-processing customer credit applications reducing time to approval by 50%",
         "Lead the team in rates of planned and completed work",
         "Consistently delivered software that performed for over 100,000 daily active users"
@@ -260,10 +260,10 @@ export default class {
       title: "Have My Shift",
       subTitle: "Founder and CTO, 2008-9 &nbsp; CEO, 2009-11",
       content: [
-        "Designed and implimented funcational protype in 48 hours",
+        "Designed and implemented functional prototype in 48 hours",
         "Uncovered additional customer needs and scaled the system up to serve thousands of users daily",
         "Influenced the development of UberX's sharing economy services through conversations with their future CEO",
-        "Closed and delivered on business agreements local and national chains including Starbucks and Argo tea",
+        "Closed and delivered on business agreements with local and national chains, including Starbucks and Argo tea",
       ]
     },
 
@@ -274,7 +274,7 @@ export default class {
       name: "lakes-of-fire",
       title: "Lakes of Fire - Regional Burn Event",
       content: [
-        "Designed and continued to enhance What Where When - distrubuted event management application",
+        "Designed and continued to enhance What Where When - distributed event management application",
         "Provided medical assistance and leadership in a time of crisis, prevented loss of life",
       ]
     },
@@ -283,7 +283,7 @@ export default class {
       title: "Techstars (Excelerate Labs Chicago)",
       subTitle: "Mentor, 2010 class",
       content: [
-        "Early advisor to portfolio of companies now valued at over $1bn",
+        "Early advisor to a portfolio of companies now valued at over $1bn",
         "gave perspective on how software skills can be used in the real world"
       ]
     },
