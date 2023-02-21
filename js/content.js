@@ -341,13 +341,13 @@ export default class {
       name: "senior-engineer",
       title: "Senior engineer",
       urlParam: "senior-engineer",
-      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"]
     },
     {
       name: "engineering-manager",
       title: "Engineering manager",
       urlParam: "engineering-manager",
-      contentNames: ["aba-session", "mohawk", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      contentNames: ["aba-session", "crafty", "mohawk", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
   ]
 
