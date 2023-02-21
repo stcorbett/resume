@@ -6,9 +6,10 @@ export default class {
       subTitle: "Founder and CEO, 2020-2022 &nbsp; Advisor 2022-present",
       description: "Researched, designed, and developed a software platform for telehealth in Applied Behavior Analysis.",
       content: [
-        "Delivered modern tools to hundreds of users in an overlooked healthcare niche",
-        "Co-designed with users, developed the product, hired and managed engineering and operational teams",
-        "Mentored recent CS graduates on the engineering team, leading them to become proficient software engineers"
+        "Managed a team of developers to rapidly release our MVP on time and on budget, while also managing a stable of content creators, propelling our site into the top ten ABA tools on Google within a year.",
+        "Spearheaded innovative product design and user research, managed the beta program, and engaged in early direct sales ensuring true product-market fit.",
+        "Successfully implemented privacy controls in accordance with HIPAA and NIH regulations to ensure data security.",
+        "Co-designed with users, developed the product, hired and managed engineering and operational teams.",
       ],
       stories: [
         `
@@ -49,10 +50,10 @@ export default class {
       subTitle: "Principal Consultant, 2009-present",
       description: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
       content: [
-        "Delivered dozens of custom web applications for businesses expanding their market footprints",
-        "Achieved 100% retention rate by focusing on alignment between client needs and software processes",
-        "Designed, implemented, and supported multiple applications with thousands of daily active users",
-        "Experienced the results of design paradigms across the spectrum of software engineering"
+        "Oversaw the successful development and launch of multiple apps by collaborating with stakeholders, design, development, and marketing teams to ensure a seamless user experience.",
+        "Achieved 100% retention rate by focusing on alignment between client needs and software processes.",
+        "Rapidly developed customer-centric, cost-effective, and innovative web applications for a variety of small and medium-sized businesses.",
+        "Experienced the results of design paradigms across the spectrum of software engineering."
       ]
     },
 
@@ -61,9 +62,9 @@ export default class {
       title: "Mohawk St. AirBnB",
       subTitle: "Team Leader, 2017-present",
       content: [
-        "Achieved 100% y/y growth by focusing on customer needs and market dynamics",
-        "Created a fun, positive working culture by focusing on personal growth",
-        "Achieved superhost status with automated guest interaction and hand-picked operational team",
+        "Achieved 100% y/y growth by focusing on customer needs and market dynamics.",
+        "Created a fun, positive working culture by focusing on personal growth.",
+        "Achieved superhost status with automated guest interaction and hand-picked operational team.",
       ]
     },
 
@@ -73,9 +74,9 @@ export default class {
       subTitle: "Director of Technology, 2020",
       description: "Lead development of a business process and financial analysis tool",
       content: [
-        "Delivered a functional prototype of what had been a failing development project",
-        "Built relationships with remote team and scaled them down over a 6 month timeline",
-        "Supported management in drawing conclusions from the project and shutting it down"
+        "Delivered a functional prototype of what had been a failing development project.",
+        "Built relationships with remote team and scaled them down over a 6 month timeline.",
+        "Supported management in drawing conclusions from the project and shutting it down."
       ]
     },
 
@@ -85,9 +86,9 @@ export default class {
       subTitle: "Engineering Leader, 2019",
       description: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
-        "Created a culture of individual ownership of the business's success in the product and engineering teams",
-        "Coached the five person engineering team on clear communication with business owners",
-        "Supported engineering and product teams in creating a product vision matched to the company's long-term strategy"
+        "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of user interactions, allowing the team to optimize website performance and increase user engagement.",
+        "Designed and implimented a real-time product distribution visualization across all alcohol brands, leading to a 3x reduction in time spent manually searching mistakes in teritory maps. Empowered staff to quickly update non-performing products.",
+        "Supported engineering and product teams in creating a product vision matched to the company's long-term strategy."
       ],
       stories: [
         `
@@ -131,9 +132,10 @@ export default class {
       title: "Hire Abby",
       subTitle: "Founder and CTO, 2016-19",
       content: [
-        "Built a series of production pilots, tested market applications for AI driven chat technology",
-        "Created a system that delivered job candidate engagement with an 80% cost reduction in half the time as the industry standard",
-        "Sold six-figure software licensing agreements to Fortune 500"
+        "Developed an interactive chat bot which allowed voters to interact with political candidates by asking questions where the bot would respond with appropriate quotes from each candidate.",
+        "Built a series of production pilots, tested market applications for AI driven chat technology.",
+        "Created a system that delivered job candidate engagement with an 80% cost reduction in half the time as the industry standard.",
+        "Successfully closed six-figure software licensing agreements within the Fortune 500."
       ],
       stories: [
         `
@@ -182,9 +184,9 @@ export default class {
       title: "Team, Management, and Leadership Program",
       subTitle: "Team Leader, 2018-19",
       content: [
-        "Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using coaching style management",
-        "Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams",
-        "Developed powerful leadership techniques from trust and authenticity"
+        "Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using coaching style management.",
+        "Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams.",
+        "Developed powerful leadership techniques from trust and authenticity."
       ],
       stories: [
         `
@@ -237,8 +239,8 @@ export default class {
       title: "Fibroblast",
       subTitle: "Lead Engineer, 2013-14 &nbsp; Interim CTO, 2014-15",
       content: [
-        "Designed and developed product offering that combined value for health care providers and payers",
-        "Prepared the company culture for growth and later acquisition by Cerner Corporation"
+        "Designed and developed product offering that combined value for health care providers and payers.",
+        "Prepared the company culture for growth and later acquisition by Cerner Corporation."
       ]
     },
 
@@ -248,10 +250,10 @@ export default class {
       subTitle: "Senior Engineer, 2008-10 &nbsp; New initiatives consultant, 2011-13",
       description: "",
       content: [
-        "Contributed to project successes in back-end engineering projects, front-end, UI, and internal and external service integrations",
-        "Improved performance of internal services for post-processing customer credit applications reducing time to approval by 50%",
-        "Lead the team in rates of planned and completed work",
-        "Consistently delivered software that performed for over 100,000 daily active users"
+        "Contributed to project successes in back-end engineering projects, front-end, UI, and internal and external service integrations.",
+        "Improved performance of internal services for post-processing customer credit applications reducing time to approval by 50%.",
+        "Lead the team in rates of planned and completed work.",
+        "Consistently delivered software that performed for over 100,000 daily active users."
       ]
     },
 
@@ -260,9 +262,9 @@ export default class {
       title: "Have My Shift",
       subTitle: "Founder and CTO, 2008-9 &nbsp; CEO, 2009-11",
       content: [
-        "Designed and implemented functional prototype in 48 hours",
-        "Uncovered additional customer needs and scaled the system up to serve thousands of users daily",
-        "Influenced the development of UberX's sharing economy services through conversations with their future CEO",
+        "Designed and implemented functional prototype in 48 hours.",
+        "Uncovered additional customer needs and scaled the system up to serve thousands of users daily.",
+        "Influenced the development of UberX's sharing economy services through conversations with their future CEO.",
         "Closed and delivered on business agreements with local and national chains, including Starbucks and Argo tea",
       ]
     },
@@ -274,8 +276,8 @@ export default class {
       name: "lakes-of-fire",
       title: "Lakes of Fire - Regional Burn Event",
       content: [
-        "Designed and continued to enhance What Where When - distributed event management application",
-        "Provided medical assistance and leadership in a time of crisis, prevented loss of life",
+        "Built an open-source community managed event calendar, promoting the ideals of communal effort and radical self-reliance.",
+        "Provided medical assistance and leadership in a time of crisis, prevented loss of life.",
       ]
     },
     {
@@ -283,8 +285,8 @@ export default class {
       title: "Techstars (Excelerate Labs Chicago)",
       subTitle: "Mentor, 2010 class",
       content: [
-        "Early advisor to a portfolio of companies now valued at over $1bn",
-        "gave perspective on how software skills can be used in the real world"
+        "Early advisor to a portfolio of companies now valued at over $1bn.",
+        "gave perspective on how software skills can be used in the real world."
       ]
     },
     {
@@ -292,8 +294,8 @@ export default class {
       title: "Scale Well - Entrepreneurial Grants",
       subTitle: "Founder and Executive Director",
       content: [
-        "Interviewed for future visions of technology business in Chicago alongside Brad Keywell",
-        "Featured in the Chicago Tribune business section, cover page"
+        "Interviewed for future visions of technology business in Chicago alongside Brad Keywell.",
+        "Featured in the Chicago Tribune business section, cover page."
       ]
     },
     {
@@ -301,7 +303,7 @@ export default class {
       title: "Starter League (Code Academy)",
       subTitle: "Mentor, 2011 and 2012 classes",
       content: [
-        "Provided perspective on using software skills in business and the real world"
+        "Provided perspective on using software skills in business and the real world."
       ]
     },
     {
@@ -309,22 +311,22 @@ export default class {
       title: "1871 Chicago - Independent Innovation hub",
       subTitle: "",
       content: [
-        "Conceptualized the original project with Kevin Willer"
+        "Conceptualized the original project with Kevin Willer."
       ]
     },
     {
       name: "illinois-technology-association",
       title: "Illinois Technology Association",
       content: [
-        "Helped redefine the ITA's relationship with the growing Chicago technology and startup community",
-        "Cited by the Wall Street Journal"
+        "Helped redefine the ITA's relationship with the growing Chicago technology and startup community.",
+        "Cited by the Wall Street Journal."
       ]
     },
     {
       name: "improv-everywhere",
       title: "Improv Everywhere - No Pants Subway Ride",
       content: [
-        "Chicago Tribune - front-page Cover photo and interviewee",
+        "Chicago Tribune - front-page Cover photo and interviewee.",
       ]
     },
   ]
