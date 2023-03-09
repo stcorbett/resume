@@ -3,8 +3,12 @@ export default class {
     {
       name: "aba-session",
       title: "ABA Session",
-      subTitle: "Principal Engineer, 2020-present",
-      description: "Researched, designed, and developed a software platform for telehealth in Applied Behavior Analysis.",
+      subTitle: "Principal Engineer",
+      addlTitle: "June 2020 - present",
+      description: "Telehealth platform for Applied Behavior Analysis - 5 employees (founder) - Fully remote",
+      skills: "Node.js · Stimulusjs · User Experience (UX) · TypeScript · PostgreSQL · Ruby · Ruby on Rails · JavaScript · Applied Behavior Analysis",
+      closer: "Project shuttered before finding product-market fit",
+
       content: [
         "Managed a team of developers to rapidly release our MVP on time and on budget, while also managing a stable of content creators, propelling our site into the top ten ABA tools on Google within a year.",
         "Spearheaded innovative product design and user research, managed the beta program, and engaged in early direct sales ensuring true product-market fit.",
@@ -47,8 +51,13 @@ export default class {
     {
       name: "newline",
       title: "Newline Financial",
-      subTitle: "Principal Engineer, 2020",
-      description: "Lead development of a business process and financial analysis tool",
+      subTitle: "Staff Engineer",
+      addlTitle: "Jan 2020 - June 2020",
+      description: "Residential real-estate investment - 15 employees - Chicago, IL offices",
+      closer: "6-month software investment research contract completed",
+      skills: "React.js · TypeScript · PostgreSQL · Amazon Web Services (AWS) · JavaScript",
+
+      extra: "Lead development of a business process and financial analysis tool",
       content: [
         "Delivered a functional prototype of what had been a failing development project.",
         "Built relationships with remote team and scaled them down over a 6 month timeline.",
@@ -59,8 +68,13 @@ export default class {
     {
       name: "provi",
       title: "Provi",
-      subTitle: "Lead Engineer, 2019",
-      description: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
+      subTitle: "Lead Engineer",
+      addlTitle: "Nov 2018 - Jan 2020",
+      description: "Alcohol ordering and distribution data broker - 37 employees - Chicago, IL and remote",
+      closer: "Joined Newline Financial, promotion to Staff Engineer",
+      skills: "AngularJS · Vue.js · PostgreSQL · Amazon Web Services (AWS) · Ruby",
+
+      extra: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
         "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of user interactions, allowing the team to optimize website performance and increase user engagement.",
         "Designed and implimented a real-time product distribution visualization across all alcohol brands, leading to a 3x reduction in time spent manually searching mistakes in teritory maps. Empowered staff to quickly update non-performing products.",
@@ -106,8 +120,13 @@ export default class {
     {
       name: "crafty",
       title: "Crafty Machine",
-      subTitle: "Principal Consultant, 2009-2020",
-      description: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
+      subTitle: "Principal Consultant",
+      addlTitle: "Since 2009",
+      description: "Personal consultancy - 1 employee",
+      closer: "Personal LLC for client projects",
+      skills: "Twilio · stimulus · Python (Programming Language) · PostgreSQL · Amazon Web Services (AWS) · Ruby on Rails · Ruby",
+
+      extra: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
       content: [
         "Oversaw the successful development and launch of multiple apps by collaborating with stakeholders, design, development, and marketing teams to ensure a seamless user experience.",
         "Achieved 100% retention rate by focusing on alignment between client needs and software processes.",
@@ -130,7 +149,12 @@ export default class {
     {
       name: "hire-abby",
       title: "Hire Abby",
-      subTitle: "Co-founder, 2016-19",
+      subTitle: "Co-founder",
+      addlTitle: "May 2016 - Nov 2018",
+      description: "AI Chat based candidate sourcing and screening platform - 3 employees (founder) - Chicago, IL and remote",
+      closer: "Project shuttered before finding product-market fit",
+      skills: "React.js · Machine Learning · Artificial Neural Networks · Chatbot Development · Chatbot Design · PostgreSQL · Ruby on Rails · Ruby",
+
       content: [
         "Developed an interactive chat bot which allowed voters to interact with political candidates by asking questions where the bot would respond with appropriate quotes from each candidate.",
         "Built a series of production pilots, tested market applications for AI driven chat technology.",
@@ -182,7 +206,8 @@ export default class {
     {
       name: "tmlp",
       title: "Team, Management, and Leadership Program",
-      subTitle: "Team Leader, 2018-19",
+      subTitle: "Team Leader",
+      addlTitle: "2018 - 2019",
       content: [
         "Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using coaching style management.",
         "Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams.",
@@ -237,7 +262,12 @@ export default class {
     {
       name: "fibroblast",
       title: "Fibroblast",
-      subTitle: "Lead Engineer, 2013-14 &nbsp; Interim CTO, 2014-15",
+      subTitle: "Consultant, Lead Engineer",
+      addlTitle: "October 2013 - March 2015",
+      description: "Electronic health records, referrals, between health systems - 3 employees - Chicago, IL, offices",
+      closer: "Supported project through raising A-round funding and handoff to the financier's development agency",
+      skills: "Hiring · High-Tech Sales · healthcare sales · React.js · PostgreSQL · Ruby on Rails · Ruby · JavaScript · DevOps",
+
       content: [
         "Designed and developed product offering that combined value for health care providers and payers.",
         "Prepared the company culture for growth and later acquisition by Cerner Corporation."
@@ -247,8 +277,12 @@ export default class {
     {
       name: "enova",
       title: "Enova International",
-      subTitle: "Senior Engineer, 2008-10 &nbsp; New initiatives consultant, 2011-13",
-      description: "",
+      subTitle: "Senior Engineer, New initiatives consultant",
+      addlTitle: "June 2008 - September 2013",
+      description: "Online lending and consumer credit reporting - 1000 employees - Chicago, IL and remote",
+      closer: "Joined Fibroblast, promotion to Lead Engineer",
+      skills: "Agile Methodologies · Python (Programming Language) · PostgreSQL · Ruby on Rails · Ruby · JavaScript · Jira · Git · DevOps",
+
       content: [
         "Contributed to project successes in back-end engineering projects, front-end, UI, and internal and external service integrations.",
         "Improved performance of internal services for post-processing customer credit applications reducing time to approval by 50%.",
@@ -260,7 +294,12 @@ export default class {
     {
       name: "hms",
       title: "Have My Shift",
-      subTitle: "Founder and CTO, 2008-9 &nbsp; CEO, 2009-11",
+      subTitle: "Founder and CTO",
+      addlTitle: "June 2009 - July 2012",
+      description: "Employee-driven scheduling platform for hourly workforces - 2 employees (founder) - Boston, MA and remote",
+      closer: "Project shuttered before finding product-market fit",
+      skills: "Fundraising · Product Incubation · AJAX · Virtual Private Server (VPS) · Ubuntu · DevOps · Ruby on Rails · Ruby · JavaScript · Product Development · MySQL",
+
       content: [
         "Designed and implemented functional prototype in 48 hours.",
         "Uncovered additional customer needs and scaled the system up to serve thousands of users daily.",
@@ -272,14 +311,14 @@ export default class {
   ]
 
   static community = [
-    {
-      name: "lakes-of-fire",
-      title: "Lakes of Fire - Regional Burn Event",
-      content: [
-        "Built an open-source community managed event calendar, promoting the ideals of communal effort and radical self-reliance.",
-        "Provided medical assistance and leadership in a time of crisis, prevented loss of life.",
-      ]
-    },
+    // {
+    //   name: "lakes-of-fire",
+    //   title: "Lakes of Fire - Regional Burn Event",
+    //   content: [
+    //     "Built an open-source community managed event calendar, promoting the ideals of communal effort and radical self-reliance.",
+    //     "Provided medical assistance and leadership in a time of crisis, prevented loss of life.",
+    //   ]
+    // },
     {
       name: "techstars-mentor",
       title: "Techstars (Excelerate Labs Chicago)",
@@ -294,7 +333,7 @@ export default class {
       title: "Scale Well - Entrepreneurial Grants",
       subTitle: "Founder and Executive Director",
       content: [
-        "Interviewed for future visions of technology business in Chicago alongside Brad Keywell.",
+        "Presented future visions of technology business in Chicago alongside Brad Keywell.",
         "Featured in the Chicago Tribune business section, cover page."
       ]
     },
@@ -304,6 +343,15 @@ export default class {
       subTitle: "Mentor, 2011 and 2012 classes",
       content: [
         "Provided perspective on using software skills in business and the real world."
+      ]
+    },
+    {
+      name: "esta",
+      title: "Esports Trade Association",
+      subTitle: "Founding board member, 2017-2018",
+      content: [
+        "Created the organizational foundations: community orientation and outreach",
+        "Guided discovery of the organization's mission and first staff hires",
       ]
     },
     {

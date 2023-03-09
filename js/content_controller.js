@@ -45,6 +45,18 @@ export default class extends Controller {
       if((contentItem.subTitle || '').length > 0) {
         item.querySelector('[data-content="subTitle"]').innerHTML = contentItem.subTitle
       }
+      if((contentItem.addlTitle || '').length > 0) {
+        item.querySelector('[data-content="addlTitle"]').innerHTML = contentItem.addlTitle
+      }
+      if((contentItem.description || '').length > 0) {
+        item.querySelector('[data-content="description"]').innerHTML = contentItem.description
+      }
+      if((contentItem.closer || '').length > 0) {
+        item.querySelector('[data-content="closer"]').innerHTML = contentItem.closer
+      }
+      if((contentItem.skills || '').length > 0) {
+        item.querySelector('[data-content="skills"]').innerHTML = contentItem.skills
+      }
 
       item = this.renderDetail(item, contentItem)
 

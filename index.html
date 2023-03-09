@@ -8,7 +8,7 @@
 
     <script type="module" src="./application.js"></script>
 
-    <title>Sean Corbett | Impact driven technology leader and dynamic engineer</title>
+    <title>Sean Corbett | Impact driven technology leader and product engineer</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -45,6 +45,12 @@
         margin-left: 1rem;
       }
 
+      .education .col-1 {
+        -ms-flex: 0 0 14%;
+        flex: 0 0 14%;
+        max-width: 14%;
+      }
+
       select {
         border: none;
         font-size: 1rem;
@@ -59,6 +65,10 @@
           font-size: 1.25rem;
         }
 
+        .maintain {
+          font-size: 1rem;
+        }
+
         .screen-only {
           display: none;
         }
@@ -68,6 +78,11 @@
           font-size: 1.25rem !important;
         }
       }
+
+      .fs-4 {
+        font-size: 0.85rem;
+      }
+
     </style>
   </head>
 
@@ -77,12 +92,14 @@
       <div class="jumbotron" style="background-color: transparent; padding-bottom: 0; padding-top: 1rem;">
         <div class="container text-center">
           <h1 class="display-3 sans">Sean Corbett</h1>
-          <p>
-            Impact driven technology leader and dynamic engineer with 15+ years' experience across the software development lifecycle.<br/>
+          <p class="maintain">
+            Impact driven technology leader and product engineer with 10+ years' experience across the software development lifecycle.<br/>
             Specializes in innovative, intuitive, and reliable web applications -
             Focused on growth through product development and prompt feedback cycles.<br/>
             Drives team performance through experimentation, focused effort, and effective teamwork.
             <br/>
+            <a href="tel:3122171557">312-217-1557</a> -
+            <a href="mailto:stcorbett@gmail.com">stcorbett@gmail.com</a> -
             <a target="_blank" href="https://github.com/stcorbett">GitHub</a> -
             <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
           </p>
@@ -150,16 +167,24 @@
           <template data-content-target='itemTemplate'>
             <div class="row">
               <div class="col mx-auto" style="max-width: 992px;">
-                <h3>
-                  <span data-content='title'>
-                  </span>
-                  <span class="h5" data-content='subTitle'>
-                  </span>
+                <div class="text-secondary fs-4" data-content='skills'></div>
+
+                <h3 class="mb-0 d-md-flex align-items-end">
+                  <div data-content='title'></div>
+                  <div class="ml-md-2 flex-grow-1 d-md-flex justify-content-between">
+                    <div class="fs-lg-5" style="margin-bottom: 0.1rem;" data-content='subTitle'></div>
+                    <div class="" style="font-size: 1.25rem; margin-bottom: 0.1rem;" data-content='addlTitle'></div>
+                  </div>
                 </h3>
-                <ul class="fs-6 fs-lg-5" data-content='content'>
+
+                <div class="" data-content='description'></div>
+
+                <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
                   <li data-content='content-li'>
                   </li>
                 </ul>
+
+                <div class="mb-4" data-content='closer'></div>
               </div>
             </div>
           </template>
@@ -185,29 +210,65 @@
           </div>
         </h2>
 
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row education">
+          <div class="col-md-6 mb-3">
             <h4>University of Illinois at Urbana-Champaign</h4>
-            <p>
-              Systems and General Engineering, Concentration in Machine Learning applications in Robotic Control systems (2005)<br/>
-              Jerry Sanders Robotic Design Competition - team leader of 20 person engineering team (2005)<br/>
-              Dean's list (2004, 2005)<br/>
-            </p>
+            <div class="row">
+              <b class="col-1">2005</b>
+              <div class="col">
+                Systems and General Engineering, Concentration in Machine Learning applications in Robotic Control systems
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2005</b>
+              <div class="col">
+                Jerry Sanders Robotic Design Competition - team leader of 20 person engineering team
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2004/5</b>
+              <div class="col">
+                Dean's list
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
+
+          <div class="col-md-6 mb-3">
             <h4>Techstars Accelerator</h4>
-            <p>
-              HaveMyShift, Techstars Boston (2009)<br/>
-              Connected Techstars with the Chicago startup community impacting the creation of Excelerate Labs and Techstars Chicago<br/>
-              Contributor: <b>Get It Out There</b>. <i>Do More Faster: Techstars Lessons to Accelerate Your Startup</i>. 2011
-            </p>
+            <div class="row">
+              <b class="col-1">2009</b>
+              <div class="col">
+                Have My Shift, Techstars Boston
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2011</b>
+              <div class="col">
+                Connected Techstars with the Chicago startup community impacting the creation of Excelerate Labs and Techstars Chicago
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2011</b>
+              <div class="col">
+                Contributor: <b>Get It Out There</b>. <i>Do More Faster: Techstars Lessons to Accelerate Your Startup</i>
+              </div>
+            </div>
           </div>
+
           <div class="col-md-6">
             <h4>Second City Chicago</h4>
-            <p>
-              Levels A-E<br/>
-              Improv and sketch performances at local theatres
-            </p>
+            <div class="row">
+              <b class="col-1">2012</b>
+              <div class="col">
+                Levels A-E
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2013</b>
+              <div class="col">
+                Improv and sketch performances at local theatres
+              </div>
+            </div>
           </div>
           <div class="col-md-6">
             <h4>Landmark Worldwide
@@ -215,14 +276,22 @@
                 Personal development and coaching
               </span>
             </h4>
-            <p>
-              Curriculum for living (2009)<br/>
-              Self Expression and Leadership Program coach (2017)<br/>
-            </p>
+            <div class="row">
+              <b class="col-1">2009</b>
+              <div class="col">
+                Curriculum for living
+              </div>
+            </div>
+            <div class="row">
+              <b class="col-1">2017</b>
+              <div class="col">
+                Self Expression and Leadership Program coach
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="row">
+        <div class="row d-none">
           <div class="col">
             <h2>
               <div class="center-separator">
@@ -307,9 +376,6 @@
           <li>Enhancing life via Technology - Applied leadership at the interface of Technology and Business</li>
           <li>Transforming teams to reach for their future and accomplish their goals</li>
           <li>This interactive page is <a target="_blank" href="https://github.com/stcorbett/resume">on github</a></li>
-          <li>
-            (312) 217-1557 - stcorbett@gmail.com - <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
-          </li>
         </ul>
       </footer>
 
