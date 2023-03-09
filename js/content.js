@@ -3,7 +3,7 @@ export default class {
     {
       name: "aba-session",
       title: "ABA Session",
-      subTitle: "Founder and CEO, 2020-2022 &nbsp; Advisor 2022-present",
+      subTitle: "Principal Engineer, 2020-present",
       description: "Researched, designed, and developed a software platform for telehealth in Applied Behavior Analysis.",
       content: [
         "Managed a team of developers to rapidly release our MVP on time and on budget, while also managing a stable of content creators, propelling our site into the top ten ABA tools on Google within a year.",
@@ -45,33 +45,9 @@ export default class {
     },
 
     {
-      name: "crafty",
-      title: "Crafty Machine",
-      subTitle: "Principal Consultant, 2009-present",
-      description: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
-      content: [
-        "Oversaw the successful development and launch of multiple apps by collaborating with stakeholders, design, development, and marketing teams to ensure a seamless user experience.",
-        "Achieved 100% retention rate by focusing on alignment between client needs and software processes.",
-        "Rapidly developed customer-centric, cost-effective, and innovative web applications for a variety of small and medium-sized businesses.",
-        "Experienced the results of design paradigms across the spectrum of software engineering."
-      ]
-    },
-
-    {
-      name: "mohawk",
-      title: "Mohawk St. AirBnB",
-      subTitle: "Team Leader, 2017-present",
-      content: [
-        "Achieved 100% y/y growth by focusing on customer needs and market dynamics.",
-        "Created a fun, positive working culture by focusing on personal growth.",
-        "Achieved superhost status with automated guest interaction and hand-picked operational team.",
-      ]
-    },
-
-    {
       name: "newline",
       title: "Newline Financial",
-      subTitle: "Director of Technology, 2020",
+      subTitle: "Principal Engineer, 2020",
       description: "Lead development of a business process and financial analysis tool",
       content: [
         "Delivered a functional prototype of what had been a failing development project.",
@@ -83,7 +59,7 @@ export default class {
     {
       name: "provi",
       title: "Provi",
-      subTitle: "Engineering Leader, 2019",
+      subTitle: "Lead Engineer, 2019",
       description: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
         "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of user interactions, allowing the team to optimize website performance and increase user engagement.",
@@ -128,9 +104,33 @@ export default class {
     },
 
     {
+      name: "crafty",
+      title: "Crafty Machine",
+      subTitle: "Principal Consultant, 2009-2020",
+      description: "Crafty Machine designs and develops software for small, medium, and large companies, specializing in new market initiatives. I operate in all roles for this small services business, including software implementation and engineering team management.",
+      content: [
+        "Oversaw the successful development and launch of multiple apps by collaborating with stakeholders, design, development, and marketing teams to ensure a seamless user experience.",
+        "Achieved 100% retention rate by focusing on alignment between client needs and software processes.",
+        "Rapidly developed customer-centric, cost-effective, and innovative web applications for a variety of small and medium-sized businesses.",
+        "Experienced the results of design paradigms across the spectrum of software engineering."
+      ]
+    },
+
+    // {
+    //   name: "mohawk",
+    //   title: "Mohawk St. AirBnB",
+    //   subTitle: "Team Leader, 2017-present",
+    //   content: [
+    //     "Achieved 100% y/y growth by focusing on customer needs and market dynamics.",
+    //     "Created a fun, positive working culture by focusing on personal growth.",
+    //     "Achieved superhost status with automated guest interaction and hand-picked operational team.",
+    //   ]
+    // },
+
+    {
       name: "hire-abby",
       title: "Hire Abby",
-      subTitle: "Founder and CTO, 2016-19",
+      subTitle: "Co-founder, 2016-19",
       content: [
         "Developed an interactive chat bot which allowed voters to interact with political candidates by asking questions where the bot would respond with appropriate quotes from each candidate.",
         "Built a series of production pilots, tested market applications for AI driven chat technology.",
@@ -347,7 +347,7 @@ export default class {
       name: "engineering-manager",
       title: "Engineering manager",
       urlParam: "engineering-manager",
-      contentNames: ["aba-session", "crafty", "mohawk", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
   ]
 
