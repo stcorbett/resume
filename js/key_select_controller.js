@@ -6,7 +6,7 @@ export default class extends Controller {
   static targets = ["select"]
 
   connect () {
-    this.version = Content.versions.find(version => version.urlParam == Params.key)
+    this.version = Content.versions.find(version => Params.key() && ((version.urlParam == Params.key()) || (version.path == Params.key())) )
 
     if (this.version) {
       this.renderSelect()

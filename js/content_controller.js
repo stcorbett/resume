@@ -11,8 +11,8 @@ export default class extends Controller {
   static targets = ["itemTemplate"]
 
   connect () {
-    this.contentFilter = this.filter(Params.key)
-    this.content = this.filteredContent(this.libraryValue, Params.key)
+    this.version = this.filter(Params.key())
+    this.content = this.filteredContent(this.libraryValue, Params.key())
 
     this.render()
   }
@@ -22,7 +22,7 @@ export default class extends Controller {
       return key
     }
 
-    return Content.versions.find(version => version.urlParam == key)
+    return Content.versions.find(version => (version.urlParam == key) || (version.path == key))
   }
 
   filteredContent(library, key) {
@@ -30,8 +30,8 @@ export default class extends Controller {
       return []
     }
 
-    if ( ((this.contentFilter.contentNames || []).length > 0) && !this.allValue ) {
-      return Content[library].filter(content => this.contentFilter.contentNames.includes(content.name))
+    if ( ((this.version.contentNames || []).length > 0) && !this.allValue ) {
+      return Content[library].filter(content => this.version.contentNames.includes(content.name))
     } else {
       return Content[library]
     }
