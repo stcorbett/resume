@@ -7,7 +7,9 @@ export default class {
       addlTitle: "June 2020 - present",
       description: "Telehealth platform for Applied Behavior Analysis - 5 employees (founder) - Fully remote",
       skills: "Node.js · Stimulusjs · User Experience (UX) · TypeScript · PostgreSQL · Ruby · Ruby on Rails · JavaScript · Applied Behavior Analysis",
-      closer: "Project shuttered before finding product-market fit",
+      closer: "Unable to find product-market fit",
+      image: "./assets/images/abasession-vbmapp.png",
+      imageLink: "https://www.youtube.com/@abasession8768/videos",
 
       content: [
         "Managed a team of developers to rapidly release our MVP on time and on budget, while also managing a stable of content creators, propelling our site into the top ten ABA tools on Google within a year.",
@@ -73,6 +75,7 @@ export default class {
       description: "Alcohol ordering and distribution data broker - 37 employees - Chicago, IL and remote",
       closer: "Joined Newline Financial, promotion to Staff Engineer",
       skills: "AngularJS · Vue.js · PostgreSQL · Amazon Web Services (AWS) · Ruby",
+      image: "./assets/images/provi-coasters.jpg",
 
       extra: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
@@ -207,7 +210,7 @@ export default class {
       name: "tmlp",
       title: "Team, Management, and Leadership Program",
       subTitle: "Team Leader",
-      addlTitle: "2018 - 2019",
+      addlTitle: "August 2018 - August 2019",
       content: [
         "Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using coaching style management.",
         "Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams.",
@@ -299,6 +302,7 @@ export default class {
       description: "Employee-driven scheduling platform for hourly workforces - 2 employees (founder) - Boston, MA and remote",
       closer: "Project shuttered before finding product-market fit",
       skills: "Fundraising · Product Incubation · AJAX · Virtual Private Server (VPS) · Ubuntu · DevOps · Ruby on Rails · Ruby · JavaScript · Product Development · MySQL",
+      images: ["./assets/images/techstars.svg", "./assets/images/starbucks.png", "./assets/images/uber.png"],
 
       content: [
         "Designed and implemented functional prototype in 48 hours.",
@@ -332,6 +336,7 @@ export default class {
       name: "scale-well",
       title: "Scale Well - Entrepreneurial Grants",
       subTitle: "Founder and Executive Director",
+      image: "./assets/images/wsj.png",
       content: [
         "Presented future visions of technology business in Chicago alongside Brad Keywell.",
         "Featured in the Chicago Tribune business section, cover page."
@@ -365,6 +370,7 @@ export default class {
     {
       name: "illinois-technology-association",
       title: "Illinois Technology Association",
+      image: "./assets/images/tribune.png",
       content: [
         "Helped redefine the ITA's relationship with the growing Chicago technology and startup community.",
         "Cited by the Wall Street Journal."

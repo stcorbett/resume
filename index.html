@@ -65,7 +65,7 @@
           font-size: 1.25rem;
         }
 
-        .maintain {
+        .fs-maintain {
           font-size: 1rem;
         }
 
@@ -90,19 +90,27 @@
     <main role="main" style="page-break-after: always; page-break-inside: avoid;">
 
       <div class="jumbotron" style="background-color: transparent; padding-bottom: 0; padding-top: 1rem;">
-        <div class="container text-center">
-          <h1 class="display-3 sans">Sean Corbett</h1>
-          <p class="maintain">
-            Impact driven technology leader and product engineer with 10+ years' experience across the software development lifecycle.<br/>
-            Specializes in innovative, intuitive, and reliable web applications -
-            Focused on growth through product development and prompt feedback cycles.<br/>
-            Drives team performance through experimentation, focused effort, and effective teamwork.
-            <br/>
-            <a href="tel:3122171557">312-217-1557</a> -
-            <a href="mailto:stcorbett@gmail.com">stcorbett@gmail.com</a> -
-            <a target="_blank" href="https://github.com/stcorbett">GitHub</a> -
-            <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
-          </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <img src="./assets/images/profile-photo-square.png" class="w-100" alt="">
+            </div>
+            <div class="col text-left">
+              <h1 class="display-3 sans">Sean Corbett</h1>
+              <div class="fs-maintain">
+                Impact driven technology leader and product engineer with 10+ years' experience across the software development lifecycle.<br/>
+                Specializes in innovative, intuitive, and reliable web applications -
+                Focused on growth through product development and prompt feedback cycles.<br/>
+                Drives team performance through experimentation, focused effort, and effective teamwork.
+              </div>
+              <div class="">
+                <a href="tel:3122171557">312-217-1557</a> -
+                <a href="mailto:stcorbett@gmail.com">stcorbett@gmail.com</a> -
+                <a target="_blank" href="https://github.com/stcorbett">GitHub</a> -
+                <a target="_blank" href="https://www.linkedin.com/in/stcorbett/">LinkedIn</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -167,7 +175,7 @@
 
           <template data-content-target='itemTemplate'>
             <div class="row">
-              <div class="col mx-auto" style="max-width: 992px;">
+              <div class="col" style="max-width: 992px;">
                 <div class="text-secondary fs-4" data-content='skills'></div>
 
                 <h3 class="mb-0 d-md-flex align-items-end">
@@ -185,8 +193,12 @@
                   </li>
                 </ul>
 
-                <div class="mb-4" data-content='closer'></div>
+                <div class="mb-2 mb-md-4" data-content='closer'></div>
               </div>
+
+              <a class="col-md-3 mb-4 mb-md-0 d-none" data-content='image'>
+                <img data-content='image-template' src="" class="w-100 mb-2" alt="">
+              </a>
             </div>
           </template>
 
@@ -353,7 +365,7 @@
 
         <div class="row" data-controller="content" data-content-library-value="community" data-content-all-value="true">
           <template data-content-target='itemTemplate'>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
               <h4>
                 <span data-content='title'>
                 </span>
@@ -361,10 +373,14 @@
                 </span>
               </h4>
 
-              <ul class="" data-content='content'>
+              <ul class="mb-2" data-content='content'>
                 <li data-content='content-li'>
                 </li>
               </ul>
+
+              <div class="d-none" data-content='image'>
+                <img data-content='image-template' src="" class="" style="max-width: 100%;" alt="">
+              </div>
             </div>
           </template>
         </div>
