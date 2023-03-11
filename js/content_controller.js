@@ -106,7 +106,7 @@ export default class extends Controller {
           let clone = template.cloneNode(true)
           clone.src = image
           clone.classList.remove("w-100")
-          clone.classList.add("w-25", "mr-2")
+          clone.classList.add("w-25")
           template.after(clone);
         })
       }
