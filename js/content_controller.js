@@ -23,7 +23,7 @@ export default class extends Controller {
     if ((this.version == undefined) || (this.version == 'all')) {
       return content
     }
-    if(window.startDebug) { debugger }
+    console.log("version is ", this.version)
 
     let replacements = (this.version.replace || {})
     let replacementKeys = Object.keys(replacements).filter(replace => replace.startsWith(library))
