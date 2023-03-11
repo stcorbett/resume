@@ -46,7 +46,9 @@ export default class extends Controller {
   }
 
   filteredContent(library) {
-    let renderAll = this.version == 'all' || this.allValue || this.version[`${library}Content`] == 'all'
+    if (this.version == 'all') {return Content[library]}
+
+    let renderAll = this.allValue || this.version[`${library}Content`] == 'all'
     let includedFilter = this.version[`${library}Content`]
 
     if (renderAll) {
