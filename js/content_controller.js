@@ -11,6 +11,7 @@ export default class extends Controller {
   static targets = ["itemTemplate"]
 
   connect () {
+    this.contentItemsRendered = []
     this.version = this.filter(Params.key())
     this.content = ((Params.key() || '') == '') ? [] : this.filteredContent(this.libraryValue)
     this.content = this.replaceContent(this.content, this.libraryValue)
@@ -121,9 +122,12 @@ export default class extends Controller {
     let detailLi
 
     (contentItem.content || []).forEach(detail => {
+      if(this.contentItemsRendered.includes(detail)) { return }
       detailLi = itemLi.cloneNode(true)
       detailLi.innerHTML = detail
       itemLi.before(detailLi)
+
+      this.contentItemsRendered.push(detail)
     })
 
     itemLi.remove()
