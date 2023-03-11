@@ -60,7 +60,7 @@ export default class extends Controller {
     } else if (includedFilter == undefined) {
       return []
     } else {
-      return Content[library].filter(content => includedFilter.includes(content.name))
+      return includedFilter.map(name => Content[library].find(item => item.name == name)).filter(item => item)
     }
   }
 

@@ -73,6 +73,12 @@
           display: none;
         }
       }
+      @media (min-width: 768px) {
+        .fs-md-5 {
+          font-size: 1.25rem !important;
+        }
+      }
+
       @media (min-width: 992px) {
         .fs-lg-5 {
           font-size: 1.25rem !important;
@@ -133,7 +139,7 @@
       <div class="container d-none" data-controller="show-hide" data-content='base'>
 
         <div class="row d-none" data-controller="show-hide" data-content='performance-cultural'>
-          <div class="col">
+          <div class="col-lg">
             <h2>
               <div class="center-separator">
                 Performance Alignment
@@ -161,7 +167,7 @@
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-lg">
             <h2>
               <div class="center-separator">
                 Cultural Alignment
@@ -192,13 +198,13 @@
         </h2>
 
         <div class="row">
-          <div class="col">
+          <div class="col-sm">
             <h4>Skills</h4>
             <p>
               Leadership, management, product development, UI/UX, data analysis, data visualization, design patterns, machine learning, user research.
             </p>
           </div>
-          <div class="col">
+          <div class="col-sm">
             <h4>Languages</h4>
             <p>
               JavaScript, HTML/CSS, SQL, Ruby, Matlab.
@@ -206,13 +212,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-sm">
             <h4>Front End</h4>
             <p>
               ReactJS, Svelte, Stimulus, CSS (+other JavaScript frameworks, +Tailwind CSS, preprocessors).
             </p>
           </div>
-          <div class="col">
+          <div class="col-sm">
             <h4>Back End</h4>
             <p>
               AWS (EB, RDS, EC2), Azure, Rails framework, PostgreSQL, MySQL, Solr, Redis, Elasticsearch.
@@ -251,14 +257,14 @@
                 <h3 class="mb-0 d-md-flex align-items-end">
                   <div data-content='title'></div>
                   <div class="ml-md-2 flex-grow-1 d-md-flex justify-content-between">
-                    <div class="fs-lg-5" style="margin-bottom: 0.1rem;" data-content='subTitle'></div>
+                    <div class="fs-md-5" style="margin-bottom: 0.1rem;" data-content='subTitle'></div>
                     <div class="" style="font-size: 1.25rem; margin-bottom: 0.1rem;" data-content='addlTitle'></div>
                   </div>
                 </h3>
 
                 <div class="" data-content='description'></div>
 
-                <div class="row">
+                <div class="row mb-4">
                   <div class="col">
 
                     <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
@@ -266,10 +272,10 @@
                       </li>
                     </ul>
 
-                    <div class="mb-2 mb-md-4" data-content='closer'></div>
+                    <div class="mb-2" data-content='closer'></div>
                   </div>
 
-                  <a class="col-md-3 mb-4 mb-md-0 d-none text-center text-md-right" data-content='image'>
+                  <a class="col-md-3 d-none text-center text-md-right" data-content='image'>
                     <img data-content='image-template' src="" style="max-width: 200px;" class="w-100 mb-2 ml-3" alt="">
                   </a>
                 </div>
@@ -332,7 +338,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 text-center">
                 <img src="./assets/images/do-more.jpg" data-content='image-template' style="max-width: 200px;" class="w-100" alt="">
               </div>
             </div>

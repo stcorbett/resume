@@ -157,16 +157,21 @@ export default class {
       ]
     },
 
-    // {
-    //   name: "mohawk",
-    //   title: "Mohawk St. AirBnB",
-    //   subTitle: "Team Leader, 2017-present",
-    //   content: [
-    //     "Achieved 100% y/y growth by focusing on customer needs and market dynamics.",
-    //     "Created a fun, positive working culture by focusing on personal growth.",
-    //     "Achieved superhost status with automated guest interaction and hand-picked operational team.",
-    //   ]
-    // },
+    {
+      name: "mohawk",
+      title: "Mohawk St. AirBnB",
+      subTitle: "Team Leader",
+      addlTitle: "May 2017 - present",
+      description: "Air BnB properties - 2 units, 3 employees",
+      image: "./assets/images/bnb.png",
+      skills: "Operations · Design · Marketing · Leadership",
+
+      content: [
+        "Achieved 100% y/y growth by focusing on customer needs and market dynamics.",
+        "Created a fun, positive working culture by focusing on personal growth.",
+        "Achieved superhost status with automated guest interaction and hand-picked operational team.",
+      ]
+    },
 
     {
       name: "hire-abby",
@@ -230,6 +235,10 @@ export default class {
       title: "Team, Management, and Leadership Program",
       subTitle: "Team Leader",
       addlTitle: "August 2018 - August 2019",
+      description: "Leadership and personal development program - Landmark Worldwide - 32 people",
+      skills: "Authentic leadership · Managing people from different backgrounds · Alignment in teams",
+      closer: "Program completed",
+
       content: [
         "Generated $78,000 in revenue in one quarter by leading a team of 23 to deliver Communication Courses using coaching style management.",
         "Generated $1.2m in revenue in six months as an advisor and coach to 24 North American teams.",
@@ -287,7 +296,7 @@ export default class {
       subTitle: "Consultant, Lead Engineer",
       addlTitle: "October 2013 - March 2015",
       description: "Electronic health records, referrals, between health systems - 3 employees - Chicago, IL, offices",
-      closer: "Supported project through raising A-round funding and handoff to the financier's development agency",
+      closer: "Supported project through fundraising and handoff to the financier's development agency",
       skills: "Hiring · High-Tech Sales · healthcare sales · React.js · PostgreSQL · Ruby on Rails · Ruby · JavaScript · DevOps",
 
       content: [
@@ -355,10 +364,19 @@ export default class {
       name: "scale-well",
       title: "Scale Well - Entrepreneurial Grants",
       subTitle: "Founder and Executive Director",
-      image: "./assets/images/wsj.png",
+      image: "./assets/images/tribune.png",
       content: [
         "Presented future visions of technology business in Chicago alongside Brad Keywell.",
         "Featured in the Chicago Tribune business section, cover page."
+      ]
+    },
+    {
+      name: "illinois-technology-association",
+      title: "Illinois Technology Association",
+      image: "./assets/images/wsj.png",
+      content: [
+        "Helped redefine the ITA's relationship with the growing Chicago technology and startup community.",
+        "Cited by the Wall Street Journal."
       ]
     },
     {
@@ -384,15 +402,6 @@ export default class {
       subTitle: "",
       content: [
         "Conceptualized the original project with Kevin Willer."
-      ]
-    },
-    {
-      name: "illinois-technology-association",
-      title: "Illinois Technology Association",
-      image: "./assets/images/tribune.png",
-      content: [
-        "Helped redefine the ITA's relationship with the growing Chicago technology and startup community.",
-        "Cited by the Wall Street Journal."
       ]
     },
     {
@@ -441,7 +450,7 @@ export default class {
       path: "general-manager",
       headerContent: ['general-manager'],
       communityContent: 'all',
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "crafty", "newline", "mohawk", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
       show: ['base', 'performance-cultural'],
       replace: {
         'experiences-aba-session-subTitle': 'Founder and CEO',
