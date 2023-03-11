@@ -411,7 +411,8 @@ export default class {
       urlParam: "all",
       headerContent: 'all',
       communityContent: 'all',
-      experiencesContent: 'all'
+      experiencesContent: 'all',
+      show: ['base', 'performance-cultural'],
     },
     {
       name: "senior-engineer",
@@ -419,8 +420,9 @@ export default class {
       urlParam: "senior-engineer",
       path: "engineering",
       headerContent: ['engineer'],
-      communityContent: ['techstars-mentor', 'scale-well', 'starterleague', 'esta', '1871', 'illinois-technology-association', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"]
+      communityContent: ['techstars-mentor', 'scale-well', 'starterleague', 'esta', '1871', 'illinois-technology-association'],
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
+      show: ['base'],
     },
     {
       name: "engineering-manager",
@@ -429,7 +431,8 @@ export default class {
       path: "",
       headerContent: ['engineer'],
       communityContent: ['techstars-mentor', 'scale-well', 'starterleague', 'esta', '1871', 'illinois-technology-association', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      show: ['base'],
     },
     {
       name: "general-manager",
@@ -439,7 +442,7 @@ export default class {
       headerContent: ['general-manager'],
       communityContent: 'all',
       experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
-      show: ['performance-cultural'],
+      show: ['base', 'performance-cultural'],
       replace: {
         'experiences-aba-session-subTitle': 'Founder and CEO',
         'experiences-newline-subTitle': 'Director of Technology',

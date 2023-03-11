@@ -98,6 +98,20 @@
             <div class="col text-left">
               <h1 class="display-3 sans">Sean Corbett</h1>
 
+              <div class="d-none row" data-controller="key-picker">
+                <div class="col">
+                  <ul class="list-unstyled">
+                    <template id="" data-key-picker-target='versionItemTemplate'>
+                      <li>
+                        <a href="#">
+
+                        </a>
+                      </li>
+                    </template>
+                  </ul>
+                </div>
+              </div>
+
               <div class="fs-maintain" data-controller="content" data-content-library-value="header">
                 <template data-content-target='itemTemplate'>
                   <div data-content='content-li'>
@@ -116,7 +130,61 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container d-none" data-controller="show-hide" data-content='base'>
+
+        <div class="row d-none" data-controller="show-hide" data-content='performance-cultural'>
+          <div class="col">
+            <h2>
+              <div class="center-separator">
+                Performance Alignment
+              </div>
+            </h2>
+
+            <ul class="">
+              <li>
+                <span class="font-weight-bold">Listening to individuals and groups to understand what is missing</span>
+                <div>I create the conditions for partners and employees to perform at higher levels than they knew they were capable of.</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Leadership from trust and authenticity</span>
+                <div>
+                  I lead from my strengths with awareness of my weaknesses - people around me have less emotional overhead and
+                  are inspired by what we are accomplishing.
+                </div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Designing software experiences that satisfy people's needs</span>
+                <div>
+                  I am focused on the product, holistically. My teams find solutions that cost less and are more effective
+                  than what might be obvious.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>
+              <div class="center-separator">
+                Cultural Alignment
+              </div>
+            </h2>
+
+            <ul class="">
+              <li>
+                <span class="font-weight-bold">Foundation of communication</span>
+                <div>My first response is to communicate, aligning me with "ask" culture - which can cause confusion for people who align with "guess" culture.</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">People orientation</span>
+                <div>I'm in it for the good of the team, the company, and the world - I have caused confusion for people who focus on individual outcomes.</div>
+              </li>
+              <li>
+                <span class="font-weight-bold">Innovation: experimentation and risk-taking</span>
+                <div>Learning and creating are primary drivers for me. I'd rather play the long game on a big scale than the short game.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <h2>
           <div class="center-separator">
             Technology
@@ -209,20 +277,6 @@
 
             </div>
           </template>
-
-          <div class="d-none row" data-controller="key-picker">
-            <div class="col">
-              <ul class="list-unstyled">
-                <template id="" data-key-picker-target='versionItemTemplate'>
-                  <li>
-                    <a href="#">
-
-                    </a>
-                  </li>
-                </template>
-              </ul>
-            </div>
-          </div>
         </div>
 
         <h2>
@@ -256,24 +310,33 @@
 
           <div class="col-md-6 mb-3">
             <h4>Techstars Accelerator</h4>
+
             <div class="row">
-              <b class="col-1">2009</b>
               <div class="col">
-                Have My Shift, Techstars Boston
+                <div class="row">
+                  <b class="col-1">2009</b>
+                  <div class="col">
+                    Have My Shift, Techstars Boston
+                  </div>
+                </div>
+                <div class="row">
+                  <b class="col-1">2011</b>
+                  <div class="col">
+                    Connected Techstars with the Chicago startup community impacting the creation of Excelerate Labs and Techstars Chicago
+                  </div>
+                </div>
+                <div class="row">
+                  <b class="col-1">2011</b>
+                  <div class="col">
+                    Contributor: <b>Get It Out There</b>. <i>Do More Faster: Techstars Lessons to Accelerate Your Startup</i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="./assets/images/do-more.jpg" data-content='image-template' src="" class="w-100" alt="">
               </div>
             </div>
-            <div class="row">
-              <b class="col-1">2011</b>
-              <div class="col">
-                Connected Techstars with the Chicago startup community impacting the creation of Excelerate Labs and Techstars Chicago
-              </div>
-            </div>
-            <div class="row">
-              <b class="col-1">2011</b>
-              <div class="col">
-                Contributor: <b>Get It Out There</b>. <i>Do More Faster: Techstars Lessons to Accelerate Your Startup</i>
-              </div>
-            </div>
+
           </div>
 
           <div class="col-md-6 mb-3">
@@ -310,59 +373,6 @@
                 Self Expression and Leadership Program coach
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="row d-none" data-controller="show-hide" data-content='performance-cultural'>
-          <div class="col">
-            <h2>
-              <div class="center-separator">
-                Performance Alignment
-              </div>
-            </h2>
-
-            <ul class="">
-              <li>
-                <span class="font-weight-bold">Listening to individuals and groups to understand what is missing</span>
-                <div>I create the conditions for partners and employees to perform at higher levels than they knew they were capable of.</div>
-              </li>
-              <li>
-                <span class="font-weight-bold">Leadership from trust and authenticity</span>
-                <div>
-                  I lead from my strengths with awareness of my weaknesses - people around me have less emotional overhead and
-                  are inspired by what we are accomplishing.
-                </div>
-              </li>
-              <li>
-                <span class="font-weight-bold">Designing software experiences that satisfy people's needs</span>
-                <div>
-                  I am focused on the product, holistically. My teams find solutions that cost less and are more effective
-                  than what might be obvious.
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h2>
-              <div class="center-separator">
-                Cultural Alignment
-              </div>
-            </h2>
-
-            <ul class="">
-              <li>
-                <span class="font-weight-bold">Foundation of communication</span>
-                <div>My first response is to communicate, aligning me with "ask" culture - which can cause confusion for people who align with "guess" culture.</div>
-              </li>
-              <li>
-                <span class="font-weight-bold">People orientation</span>
-                <div>I'm in it for the good of the team, the company, and the world - I have caused confusion for people who focus on individual outcomes.</div>
-              </li>
-              <li>
-                <span class="font-weight-bold">Innovation: experimentation and risk-taking</span>
-                <div>Learning and creating are primary drivers for me. I'd rather play the long game on a big scale than the short game.</div>
-              </li>
-            </ul>
           </div>
         </div>
 
