@@ -20,7 +20,7 @@ export default class extends Controller {
   }
 
   replaceContent(content, library) {
-    if (this.version == 'all') {
+    if ((this.version == undefined) || (this.version == 'all')) {
       return content
     }
     let replacements = (this.version.replace || {})
