@@ -1,4 +1,23 @@
 export default class {
+  static header = [
+    {
+      name: "engineer",
+      content: [
+        "Impact driven technology leader and product engineer with 10+ years' experience across the software development lifecycle.",
+        "Specializes in innovative, intuitive, and reliable web applications - Focused on growth through product development and prompt feedback cycles.",
+        "Drives team performance through experimentation, focused effort, and effective teamwork."
+      ]
+    },
+    {
+      name: "general-manager",
+      content: [
+        "Serial software product entrepreneur, team builder with 15+ years of engineering experience",
+        "Systems thinker specializing in innovative, intuitive, and reliable web applications",
+        "Drives team performance through experimentation, focused effort, and effective teamwork."
+      ]
+    }
+  ]
+
   static experiences = [
     {
       name: "aba-session",
@@ -315,14 +334,14 @@ export default class {
   ]
 
   static community = [
-    // {
-    //   name: "lakes-of-fire",
-    //   title: "Lakes of Fire - Regional Burn Event",
-    //   content: [
-    //     "Built an open-source community managed event calendar, promoting the ideals of communal effort and radical self-reliance.",
-    //     "Provided medical assistance and leadership in a time of crisis, prevented loss of life.",
-    //   ]
-    // },
+    {
+      name: "lakes-of-fire",
+      title: "Lakes of Fire - Regional Burn Event",
+      content: [
+        "Built an open-source community managed event calendar, promoting the ideals of communal effort and radical self-reliance.",
+        "Provided medical assistance and leadership in a time of crisis, prevented loss of life.",
+      ]
+    },
     {
       name: "techstars-mentor",
       title: "Techstars (Excelerate Labs Chicago)",
@@ -389,28 +408,45 @@ export default class {
     {
       name: "all",
       title: "All",
-      urlParam: "all"
+      urlParam: "all",
+      headerContent: 'all',
+      communityContent: 'all',
+      experiencesContent: 'all'
     },
     {
       name: "senior-engineer",
       title: "Senior engineer",
       urlParam: "senior-engineer",
       path: "engineering",
-      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"]
+      headerContent: ['engineer'],
+      communityContent: ['techstars-mentor', 'scale-well', 'starterleague', 'esta', '1871', 'illinois-technology-association', 'improv-everywhere'],
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"]
     },
     {
       name: "engineering-manager",
       title: "Engineering manager",
       urlParam: "engineering-manager",
       path: "",
-      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      headerContent: ['engineer'],
+      communityContent: ['techstars-mentor', 'scale-well', 'starterleague', 'esta', '1871', 'illinois-technology-association', 'improv-everywhere'],
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
     },
     {
       name: "general-manager",
       title: "General manager",
       urlParam: "general-manager",
       path: "general-manager",
-      contentNames: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"]
+      headerContent: ['general-manager'],
+      communityContent: 'all',
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      show: ['performance-cultural'],
+      replace: {
+        'experiences-aba-session-subTitle': 'Founder and CEO',
+        'experiences-newline-subTitle': 'Director of Technology',
+        'experiences-provi-subTitle': 'Engineering Leader',
+        'experiences-hire-abby-subTitle': 'Founder and CTO',
+        'experiences-fibroblast-subTitle': 'Interim CTO',
+      }
     },
   ]
 

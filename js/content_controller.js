@@ -12,9 +12,29 @@ export default class extends Controller {
 
   connect () {
     this.version = this.filter(Params.key())
-    this.content = this.filteredContent(this.libraryValue, Params.key())
+    this.content = ((Params.key() || '') == '') ? [] : this.filteredContent(this.libraryValue)
+    this.content = this.replaceContent(this.content, this.libraryValue)
 
     this.render()
+  }
+
+  replaceContent(content, library) {
+    if (this.version == 'all') {
+      return content
+    }
+    let replacements = (this.version.replace || {})
+    let replacementKeys = Object.keys(replacements).filter(replace => replace.startsWith(library))
+    if(!replacementKeys){ return content }
+
+    replacementKeys.forEach(replace => {
+      content.filter(item => replace.startsWith(`${library}-${item.name}-`)).forEach(namedItem => {
+        let property = replace.replace(`${library}-${namedItem.name}-`, '')
+        // console.log(library, " replacing ", namedItem.name, ' ', property, ' : ', replacements[replace])
+        namedItem[property] = replacements[replace]
+      })
+    })
+
+    return content
   }
 
   filter (key) {
@@ -25,15 +45,16 @@ export default class extends Controller {
     return Content.versions.find(version => (version.urlParam == key) || (version.path == key))
   }
 
-  filteredContent(library, key) {
-    if((key || '') == '') {
-      return []
-    }
+  filteredContent(library) {
+    let renderAll = this.version == 'all' || this.allValue || this.version[`${library}Content`] == 'all'
+    let includedFilter = this.version[`${library}Content`]
 
-    if ( ((this.version.contentNames || []).length > 0) && !this.allValue ) {
-      return Content[library].filter(content => this.version.contentNames.includes(content.name))
-    } else {
+    if (renderAll) {
       return Content[library]
+    } else if (includedFilter == undefined) {
+      return []
+    } else {
+      return Content[library].filter(content => includedFilter.includes(content.name))
     }
   }
 
@@ -42,7 +63,9 @@ export default class extends Controller {
       let item = this.itemTemplateTarget.content.cloneNode(true)
       let template
 
-      item.querySelector('[data-content="title"]').innerHTML = contentItem.title
+      if((contentItem.title || '').length > 0) {
+        item.querySelector('[data-content="title"]').innerHTML = contentItem.title
+      }
       if((contentItem.subTitle || '').length > 0) {
         item.querySelector('[data-content="subTitle"]').innerHTML = contentItem.subTitle
       }

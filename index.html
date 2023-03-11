@@ -8,7 +8,7 @@
 
     <script type="module" src="./application.js"></script>
 
-    <title>Sean Corbett | Impact driven technology leader and product engineer</title>
+    <title>Sean Corbett - Software Engineer - Systems Thinker - Technology Leader</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -92,17 +92,19 @@
       <div class="jumbotron" style="background-color: transparent; padding-bottom: 0; padding-top: 1rem;">
         <div class="container">
           <div class="row">
-            <div class="col-3">
+            <div class="col-md-3">
               <img src="./assets/images/profile-photo-square.png" class="w-100" alt="">
             </div>
             <div class="col text-left">
               <h1 class="display-3 sans">Sean Corbett</h1>
-              <div class="fs-maintain">
-                Impact driven technology leader and product engineer with 10+ years' experience across the software development lifecycle.<br/>
-                Specializes in innovative, intuitive, and reliable web applications -
-                Focused on growth through product development and prompt feedback cycles.<br/>
-                Drives team performance through experimentation, focused effort, and effective teamwork.
+
+              <div class="fs-maintain" data-controller="content" data-content-library-value="header">
+                <template data-content-target='itemTemplate'>
+                  <div data-content='content-li'>
+                  </div>
+                </template>
               </div>
+
               <div class="">
                 <a href="tel:3122171557">312-217-1557</a> -
                 <a href="mailto:stcorbett@gmail.com">stcorbett@gmail.com</a> -
@@ -188,17 +190,23 @@
 
                 <div class="" data-content='description'></div>
 
-                <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
-                  <li data-content='content-li'>
-                  </li>
-                </ul>
+                <div class="row">
+                  <div class="col">
 
-                <div class="mb-2 mb-md-4" data-content='closer'></div>
+                    <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
+                      <li data-content='content-li'>
+                      </li>
+                    </ul>
+
+                    <div class="mb-2 mb-md-4" data-content='closer'></div>
+                  </div>
+
+                  <a class="col-md-3 mb-4 mb-md-0 d-none" data-content='image'>
+                    <img data-content='image-template' src="" class="w-100 mb-2" alt="">
+                  </a>
+                </div>
               </div>
 
-              <a class="col-md-3 mb-4 mb-md-0 d-none" data-content='image'>
-                <img data-content='image-template' src="" class="w-100 mb-2" alt="">
-              </a>
             </div>
           </template>
 
@@ -268,7 +276,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <h4>Second City Chicago</h4>
             <div class="row">
               <b class="col-1">2012</b>
@@ -283,7 +291,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+
+          <div class="col-md-6 mb-3">
             <h4>Landmark Worldwide
               <span class="h6">
                 Personal development and coaching
@@ -304,7 +313,7 @@
           </div>
         </div>
 
-        <div class="row d-none">
+        <div class="row d-none" data-controller="show-hide" data-content='performance-cultural'>
           <div class="col">
             <h2>
               <div class="center-separator">
@@ -363,7 +372,7 @@
           </div>
         </h2>
 
-        <div class="row" data-controller="content" data-content-library-value="community" data-content-all-value="true">
+        <div class="row" data-controller="content" data-content-library-value="community">
           <template data-content-target='itemTemplate'>
             <div class="col-md-6 mb-3">
               <h4>
@@ -379,7 +388,7 @@
               </ul>
 
               <div class="d-none" data-content='image'>
-                <img data-content='image-template' src="" class="" style="max-width: 100%;" alt="">
+                <img data-content='image-template' src="" class="" style="max-width: 50%;" alt="">
               </div>
             </div>
           </template>
