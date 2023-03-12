@@ -1,5 +1,5 @@
 export default class {
-  static title = [
+  static titles = [
     {
       name: 'general-manager',
       htmlTitle: "Sean Corbett - Technology Leader - Software Engineer - Systems Thinker"
@@ -42,7 +42,7 @@ export default class {
       description: "Telehealth platform for Applied Behavior Analysis - 5 employees (founder) - Fully remote",
       skills: "Node.js · Stimulusjs · User Experience (UX) · TypeScript · PostgreSQL · Ruby · Ruby on Rails · JavaScript · Applied Behavior Analysis",
       closer: "Unable to find product-market fit",
-      image: "./assets/images/abasession-vbmapp.png",
+      image: "./assets/images/abasession-vbmapp.jpg",
       imageLink: "https://www.youtube.com/@abasession8768/videos",
 
       content: [
@@ -178,7 +178,7 @@ export default class {
       subTitle: "Team Leader",
       addlTitle: "May 2017 - present",
       description: "Air BnB properties - 2 units, 3 employees",
-      image: "./assets/images/bnb.png",
+      image: "./assets/images/bnb.jpg",
       skills: "Operations · Design · Marketing · Leadership",
 
       content: [
@@ -432,6 +432,7 @@ export default class {
     {
       name: "all",
       title: "All",
+      jobTitle: "Senior Engineer",
       urlParam: "all",
       headerContent: 'all',
       communityContent: 'all',
@@ -441,6 +442,7 @@ export default class {
     {
       name: "senior-engineer",
       title: "Senior engineer",
+      jobTitle: "Senior Engineer",
       urlParam: "senior-engineer",
       path: "engineering",
       headerContent: 'engineer',
@@ -451,8 +453,9 @@ export default class {
     {
       name: "product-manager",
       title: "Product manager",
+      jobTitle: "Product Manager",
       urlParam: "product-manager",
-      titleContent: 'product-manager',
+      titlesContent: 'product-manager',
       path: "product",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
@@ -462,9 +465,10 @@ export default class {
     {
       name: "engineering-manager",
       title: "Engineering manager",
+      jobTitle: "Engineering Manager",
       urlParam: "engineering-manager",
       path: "",
-      titleContent: 'engineering-manager',
+      titlesContent: 'engineering-manager',
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
       experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
@@ -473,8 +477,9 @@ export default class {
     {
       name: "general-manager",
       title: "General manager",
+      jobTitle: "General Manager",
       urlParam: "general-manager",
-      titleContent: 'general-manager',
+      titlesContent: 'general-manager',
       path: "general-manager",
       headerContent: 'general-manager',
       communityContent: 'all',

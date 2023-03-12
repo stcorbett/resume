@@ -8,7 +8,7 @@ export default class extends Controller {
     all: Boolean
   }
 
-  static targets = ["itemTemplate"]
+  static targets = ["itemTemplate", "jobTitle"]
 
   connect () {
     this.contentItemsRendered = []
@@ -122,6 +122,14 @@ export default class extends Controller {
         this.itemTemplateTarget.before(item)
       }
     });
+
+    this.renderTitles()
+  }
+
+  renderTitles() {
+    if (this.hasJobTitleTarget) {
+      this.jobTitleTarget.innerHTML = this.version.jobTitle
+    }
   }
 
   renderDetail(item, contentItem) {

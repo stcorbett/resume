@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="en">
-  <head data-controller="content" data-content-library-value="title">
+<html lang="en" data-controller="titles" data-titles-library-value="titles">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -8,7 +8,7 @@
 
     <script type="module" src="./application.js"></script>
 
-    <title data-content-target='itemTemplate' data-content="htmlTitle">
+    <title data-titles-target='itemTemplate' data-content="htmlTitle">
       Sean Corbett - Software Engineer - Systems Thinker - Technology Leader
     </title>
 
@@ -104,11 +104,12 @@
       <div class="jumbotron" style="background-color: transparent; padding-bottom: 0; padding-top: 1rem;">
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
               <img src="./assets/images/profile-photo-square.png" class="w-100" alt="">
             </div>
             <div class="col text-left">
               <h1 class="display-3 sans">Sean Corbett</h1>
+              <h3 class="" data-titles-target='jobTitle'></h1>
 
               <div class="d-none row" data-controller="key-picker">
                 <div class="col">
