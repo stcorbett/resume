@@ -452,6 +452,7 @@ export default class {
       name: "product-manager",
       title: "Product manager",
       urlParam: "product-manager",
+      titleContent: 'product-manager',
       path: "product",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
