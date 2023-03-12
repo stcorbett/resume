@@ -240,55 +240,56 @@
           </div>
         </h2>
 
-        <div class="" data-controller="content" data-content-library-value="experiences">
+        <div class="" >
           <div class="screen-only d-none" data-controller="key-select">
             <div class="d-flex justify-content-end mb-3">
               <select
                 data-action="change->key-select#change"
                 data-key-select-target="select"
               >
-                <option value="all">All</option>
-                <option value="senior-engineer">Engineering</option>
-                <option value="engineering-manager">Engineering management</option>
-                <option value="general-manager">General Manager</option>
+                <template id="" data-key-select-target='versionItemTemplate'>
+                  <option></option>
+                 </template>
               </select>
             </div>
           </div>
 
-          <template data-content-target='itemTemplate'>
-            <div class="row">
-              <div class="col" style="">
-                <div class="text-secondary fs-4" data-content='skills'></div>
+          <div class="" data-controller="content" data-content-library-value="experiences">
+            <template data-content-target='itemTemplate'>
+              <div class="row">
+                <div class="col" style="">
+                  <div class="text-secondary fs-4" data-content='skills'></div>
 
-                <h3 class="mb-0 d-md-flex align-items-end">
-                  <div data-content='title'></div>
-                  <div class="ml-md-2 flex-grow-1 d-md-flex justify-content-between">
-                    <div class="fs-md-5" style="margin-bottom: 0.1rem;" data-content='subTitle'></div>
-                    <div class="" style="font-size: 1.25rem; margin-bottom: 0.1rem;" data-content='addlTitle'></div>
+                  <h3 class="mb-0 d-md-flex align-items-end">
+                    <div data-content='title'></div>
+                    <div class="ml-md-2 flex-grow-1 d-md-flex justify-content-between">
+                      <div class="fs-md-5" style="margin-bottom: 0.1rem;" data-content='subTitle'></div>
+                      <div class="" style="font-size: 1.25rem; margin-bottom: 0.1rem;" data-content='addlTitle'></div>
+                    </div>
+                  </h3>
+
+                  <div class="" data-content='description'></div>
+
+                  <div class="row mb-4">
+                    <div class="col">
+
+                      <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
+                        <li data-content='content-li'>
+                        </li>
+                      </ul>
+
+                      <div class="mb-2" data-content='closer'></div>
+                    </div>
+
+                    <a class="col-md-3 d-none text-center text-md-right" data-content='image'>
+                      <img data-content='image-template' src="" style="max-width: 200px;" class="w-100 mb-2 ml-3" alt="">
+                    </a>
                   </div>
-                </h3>
-
-                <div class="" data-content='description'></div>
-
-                <div class="row mb-4">
-                  <div class="col">
-
-                    <ul class="mt-2 mb-2 fs-6 fs-lg-5" data-content='content'>
-                      <li data-content='content-li'>
-                      </li>
-                    </ul>
-
-                    <div class="mb-2" data-content='closer'></div>
-                  </div>
-
-                  <a class="col-md-3 d-none text-center text-md-right" data-content='image'>
-                    <img data-content='image-template' src="" style="max-width: 200px;" class="w-100 mb-2 ml-3" alt="">
-                  </a>
                 </div>
-              </div>
 
-            </div>
-          </template>
+              </div>
+            </template>
+          </div>
         </div>
 
         <h2>

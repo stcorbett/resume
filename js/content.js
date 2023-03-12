@@ -7,7 +7,11 @@ export default class {
     {
       name: 'engineering-manager',
       htmlTitle: "Sean Corbett - Technology Team Builder - Software Engineer - Systems Thinker"
-    }
+    },
+    {
+      name: 'product-manager',
+      htmlTitle: "Sean Corbett - Product Leader - Software Engineer - Systems Thinker"
+    },
   ]
 
   static header = [
@@ -439,6 +443,16 @@ export default class {
       title: "Senior engineer",
       urlParam: "senior-engineer",
       path: "engineering",
+      headerContent: 'engineer',
+      communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
+      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
+      show: ['base'],
+    },
+    {
+      name: "product-manager",
+      title: "Product manager",
+      urlParam: "product-manager",
+      path: "product",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
       experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
