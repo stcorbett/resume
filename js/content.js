@@ -1,4 +1,15 @@
 export default class {
+  static title = [
+    {
+      name: 'general-manager',
+      htmlTitle: "Sean Corbett - Technology Leader - Software Engineer - Systems Thinker"
+    },
+    {
+      name: 'engineering-manager',
+      htmlTitle: "Sean Corbett - Technology Team Builder - Software Engineer - Systems Thinker"
+    }
+  ]
+
   static header = [
     {
       name: "engineer",
@@ -428,7 +439,7 @@ export default class {
       title: "Senior engineer",
       urlParam: "senior-engineer",
       path: "engineering",
-      headerContent: ['engineer'],
+      headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
       experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
       show: ['base'],
@@ -438,7 +449,8 @@ export default class {
       title: "Engineering manager",
       urlParam: "engineering-manager",
       path: "",
-      headerContent: ['engineer'],
+      titleContent: 'engineering-manager',
+      headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
       experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
       show: ['base'],
@@ -447,8 +459,9 @@ export default class {
       name: "general-manager",
       title: "General manager",
       urlParam: "general-manager",
+      titleContent: 'general-manager',
       path: "general-manager",
-      headerContent: ['general-manager'],
+      headerContent: 'general-manager',
       communityContent: 'all',
       experiencesContent: ["aba-session", "crafty", "newline", "mohawk", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
       show: ['base', 'performance-cultural'],

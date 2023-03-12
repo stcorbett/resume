@@ -23,7 +23,6 @@ export default class extends Controller {
     if ((this.version == undefined) || (this.version == 'all')) {
       return content
     }
-    console.log("version is ", this.version)
 
     let replacements = (this.version.replace || {})
     let replacementKeys = Object.keys(replacements).filter(replace => replace.startsWith(library))
@@ -54,6 +53,7 @@ export default class extends Controller {
     let version = this.version || {}
     let renderAll = this.allValue || version[`${library}Content`] == 'all'
     let includedFilter = version[`${library}Content`]
+    if(includedFilter && (includedFilter.constructor === String)) { includedFilter = [includedFilter]}
 
     if (renderAll) {
       return Content[library]
@@ -66,9 +66,12 @@ export default class extends Controller {
 
   render() {
     this.content.forEach(contentItem => {
-      let item = this.itemTemplateTarget.content.cloneNode(true)
+      let item = this.itemTemplateTarget.content ? this.itemTemplateTarget.content.cloneNode(true) : undefined
       let template
 
+      if(((contentItem.htmlTitle || '').length > 0)) {
+        document.title = contentItem.htmlTitle
+      }
       if((contentItem.title || '').length > 0) {
         item.querySelector('[data-content="title"]').innerHTML = contentItem.title
       }
@@ -113,9 +116,11 @@ export default class extends Controller {
         })
       }
 
-      item = this.renderDetail(item, contentItem)
+      if (item) {
+        item = this.renderDetail(item, contentItem)
 
-      this.itemTemplateTarget.before(item)
+        this.itemTemplateTarget.before(item)
+      }
     });
   }
 
