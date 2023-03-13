@@ -108,7 +108,7 @@ export default class {
       addlTitle: "Nov 2018 - Jan 2020",
       description: "Alcohol ordering and distribution data broker - 37 employees - Chicago, IL and remote",
       closer: "Joined Newline Financial, promotion to Staff Engineer",
-      skills: "AngularJS · Vue.js · PostgreSQL · Amazon Web Services (AWS) · Ruby",
+      skills: "Agile Development · AngularJS · Vue.js · PostgreSQL · Amazon Web Services (AWS) · Ruby",
       image: "./assets/images/provi-coasters.jpg",
 
       extra: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
@@ -195,7 +195,7 @@ export default class {
       addlTitle: "May 2016 - Nov 2018",
       description: "AI Chat based candidate sourcing and screening platform - 3 employees (founder) - Chicago, IL and remote",
       closer: "Project shuttered before finding product-market fit",
-      skills: "React.js · Machine Learning · Artificial Neural Networks · Chatbot Development · Chatbot Design · PostgreSQL · Ruby on Rails · Ruby",
+      skills: "Agile Development · React.js · Machine Learning · Artificial Neural Networks · Chatbot Development · Chatbot Design · PostgreSQL · Ruby on Rails · Ruby",
 
       content: [
         "Developed an interactive chat bot which allowed voters to interact with political candidates by asking questions where the bot would respond with appropriate quotes from each candidate.",
@@ -312,7 +312,7 @@ export default class {
       addlTitle: "October 2013 - March 2015",
       description: "Electronic health records, referrals, between health systems - 3 employees - Chicago, IL, offices",
       closer: "Supported project through fundraising and handoff to the financier's development agency",
-      skills: "Hiring · High-Tech Sales · healthcare sales · React.js · PostgreSQL · Ruby on Rails · Ruby · JavaScript · DevOps",
+      skills: "Agile Development · Hiring · High-Tech Sales · healthcare sales · React.js · PostgreSQL · Ruby on Rails · Ruby · JavaScript · DevOps",
 
       content: [
         "Designed and developed product offering that combined value for health care providers and payers.",
@@ -453,7 +453,7 @@ export default class {
     {
       name: "product-manager",
       title: "Product manager",
-      jobTitle: "Product Manager",
+      jobTitle: "Senior Product Manager",
       urlParam: "product-manager",
       titlesContent: 'product-manager',
       path: "product",
