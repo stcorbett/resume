@@ -41,7 +41,7 @@ export default class {
       addlTitle: "June 2020 - present",
       description: "Telehealth platform for Applied Behavior Analysis - 5 employees (founder) - Fully remote",
       skills: "Node.js · Stimulusjs · User Experience (UX) · TypeScript · PostgreSQL · Ruby · Ruby on Rails · JavaScript · Applied Behavior Analysis",
-      closer: "Unable to find product-market fit",
+      // closer: "Unable to find product-market fit",
       image: "./assets/images/abasession-vbmapp.jpg",
       imageLink: "https://www.youtube.com/@abasession8768/videos",
 
@@ -194,7 +194,7 @@ export default class {
       subTitle: "Co-founder",
       addlTitle: "May 2016 - Nov 2018",
       description: "AI Chat based candidate sourcing and screening platform - 3 employees (founder) - Chicago, IL and remote",
-      closer: "Project shuttered before finding product-market fit",
+      // closer: "Project shuttered before finding product-market fit",
       skills: "Agile Development · React.js · Machine Learning · Artificial Neural Networks · Chatbot Development · Chatbot Design · PostgreSQL · Ruby on Rails · Ruby",
 
       content: [
@@ -343,7 +343,7 @@ export default class {
       subTitle: "Founder and CTO",
       addlTitle: "June 2009 - July 2012",
       description: "Employee-driven scheduling platform for hourly workforces - 2 employees (founder) - Boston, MA and remote",
-      closer: "Project shuttered before finding product-market fit",
+      // closer: "Project shuttered before finding product-market fit",
       skills: "Fundraising · Product Incubation · AJAX · Virtual Private Server (VPS) · Ubuntu · DevOps · Ruby on Rails · Ruby · JavaScript · Product Development · MySQL",
       images: ["./assets/images/techstars.svg", "./assets/images/starbucks.png", "./assets/images/uber.png"],
 
