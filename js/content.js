@@ -459,7 +459,7 @@ export default class {
       path: "engineering",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "hire-abby", "fibroblast", "crafty", "enova", "hms"],
       show: ['base', 'performance-cultural'],
     },
     {
@@ -471,7 +471,7 @@ export default class {
       path: "product",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "hire-abby", "fibroblast", "crafty", "enova", "hms"],
       show: ['base'],
     },
     {
@@ -483,7 +483,7 @@ export default class {
       titlesContent: 'engineering-manager',
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "crafty", "enova", "hms"],
       show: ['base'],
     },
     {
@@ -495,7 +495,7 @@ export default class {
       path: "general-manager",
       headerContent: 'general-manager',
       communityContent: 'all',
-      experiencesContent: ["aba-session", "newline", "provi", "crafty", "mohawk", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "mohawk", "hire-abby", "tmlp", "fibroblast", "crafty", "enova", "hms"],
       show: ['base', 'performance-cultural'],
       replace: {
         'experiences-aba-session-subTitle': 'Founder and CEO',
