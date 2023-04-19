@@ -47,7 +47,7 @@ export default class {
 
       content: [
         "Managed a team of developers to rapidly release our MVP on time and on budget, while also managing a stable of content creators, propelling our site into the top ten ABA tools on Google within a year.",
-        "Spearheaded innovative product design and user research, managed the beta program, and engaged in early direct sales ensuring true product-market fit.",
+        "Spearheaded innovative product design and user research, managed the beta program, and engaged in early direct sales ensuring true product-market fit leading to over 10,000 visitors to our application and content.",
         "Successfully implemented privacy controls in accordance with HIPAA and NIH regulations to ensure data security.",
         "Co-designed with users, developed the product, hired and managed engineering and operational teams.",
       ],
@@ -80,6 +80,18 @@ export default class {
 
           When I summarized people's issues in this framework, they were overjoyed to hear someone understood their needs and were eager to
           help us build the kinds of tools we've designed to support their work and the results they want to have with their clients.
+        `,
+        `
+          ABA Session allows therapists to present interactive educational materials from a broad library
+          to their clients home computer environment in real time. The client can also interact with materials presented.
+          Clients may have slow internet connections and older computers, to ensure the materials are presented
+          consistently, we took advantage of the HTML over the wire concepts in Hotwire and stimulusJS where chunks of updated HTML
+          are delivered to the browser via websocket connections.
+
+          In building presentations using HTML over the wire concepts I discovered ways to organize the
+          HTML to minimize the size of the updates. I found I could manage several different websocket connections on the server
+          such that therapists, administrators, and patients viewing the presentation would get precisely the updated their
+          views needed and no more.
         `
       ]
     },
@@ -95,7 +107,7 @@ export default class {
 
       extra: "Lead development of a business process and financial analysis tool",
       content: [
-        "Delivered a functional prototype of what had been a failing development project.",
+        "Delivered a functional prototype allowing the team to manage and manipulate over 1m property sale records in the field in real time, rescuing what had been a failing development project.",
         "Built relationships with remote team and scaled them down over a 6 month timeline.",
         "Supported management in drawing conclusions from the project and shutting it down."
       ]
@@ -113,8 +125,8 @@ export default class {
 
       extra: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
-        "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of user interactions, allowing the team to optimize website performance and increase user engagement.",
-        "Designed and implimented a real-time product distribution visualization across all alcohol brands, leading to a 3x reduction in time spent manually searching mistakes in teritory maps. Empowered staff to quickly update non-performing products.",
+        "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of hundreds of thousands of daily user interactions, allowing the team to optimize website performance and increase user engagement.",
+        "Researched, designed, and implemented a real-time product distribution visualization across all alcohol brands, leading to a 3x reduction in time spent manually searching for mistakes in a set of over 4m overlapping territories. Empowered staff to quickly update non-performing products.",
         "Supported engineering and product teams in creating a product vision matched to the company's long-term strategy."
       ],
       stories: [
@@ -447,8 +459,8 @@ export default class {
       path: "engineering",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
-      show: ['base'],
+      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "fibroblast", "enova", "hms"],
+      show: ['base', 'performance-cultural'],
     },
     {
       name: "product-manager",
@@ -459,7 +471,7 @@ export default class {
       path: "product",
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "fibroblast", "enova", "hms"],
       show: ['base'],
     },
     {
@@ -471,7 +483,7 @@ export default class {
       titlesContent: 'engineering-manager',
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
-      experiencesContent: ["aba-session", "crafty", "newline", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "crafty", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
       show: ['base'],
     },
     {
@@ -483,7 +495,7 @@ export default class {
       path: "general-manager",
       headerContent: 'general-manager',
       communityContent: 'all',
-      experiencesContent: ["aba-session", "crafty", "newline", "mohawk", "provi", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
+      experiencesContent: ["aba-session", "newline", "provi", "crafty", "mohawk", "hire-abby", "tmlp", "fibroblast", "enova", "hms"],
       show: ['base', 'performance-cultural'],
       replace: {
         'experiences-aba-session-subTitle': 'Founder and CEO',
@@ -492,6 +504,39 @@ export default class {
         'experiences-hire-abby-subTitle': 'Founder and CTO',
         'experiences-fibroblast-subTitle': 'Interim CTO',
       }
+    },
+  ]
+
+  static questions = [
+    {
+      question: "What are the hooks of funcational react components vs class componets? Explain how they work?",
+      response: ""
+    },
+    {
+      question: "What are some of your favorite gems and packages in Rails?",
+      response: ""
+    },
+    {
+      question: "What are some of your favorite packages for React?",
+      response: ""
+    },
+    {
+      question: "Tell me about a complex problem you solved on a recent project",
+      response: ""
+    },
+    {
+      question: "What are you looking for in this role?",
+      response: `
+        Software: I really want to be able to focus on the code
+          the past projects had me in a few roles, which helped me learn new things
+          but I'm missing spending most of my time actually coding
+
+        Manager: career path
+
+
+        PM: Favorite part of building applications
+
+      `
     },
   ]
 

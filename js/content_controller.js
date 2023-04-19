@@ -20,7 +20,7 @@ export default class extends Controller {
   }
 
   replaceContent(content, library) {
-    if ((this.version == undefined) || (this.version == 'all')) {
+    if (this.version == undefined) {
       return content
     }
 
@@ -40,10 +40,6 @@ export default class extends Controller {
   }
 
   filter (key) {
-    if(key == 'all') {
-      return key
-    }
-
     return Content.versions.find(version => (version.urlParam == key) || (version.path == key))
   }
 
@@ -127,7 +123,7 @@ export default class extends Controller {
   }
 
   renderTitles() {
-    if (this.hasJobTitleTarget) {
+    if (this.hasJobTitleTarget && this.version.jobTitle) {
       this.jobTitleTarget.innerHTML = this.version.jobTitle
     }
   }
