@@ -126,7 +126,7 @@ export default class {
       extra: "Researched, designed, and implemented technology systems to support continued growth. Created a culture of accountability and communication in the technology team",
       content: [
         "Designed and implemented a comprehensive analytics framework that enabled real-time tracking of hundreds of thousands of daily user interactions, allowing the team to optimize website performance and increase user engagement.",
-        "Researched, designed, and implemented a real-time product distribution visualization across all alcohol brands, leading to a 3x reduction in time spent manually searching for mistakes in a set of over 4m overlapping territories. Empowered staff to quickly update non-performing products.",
+        "Researched, designed, and implemented a matrix theory based mathematical approach to product distribution across all alcohol brands, leading to a 3x reduction in time spent manually searching for mistakes in a set of over 4m overlapping territories. Empowered staff to quickly update non-performing products.",
         "Supported engineering and product teams in creating a product vision matched to the company's long-term strategy."
       ],
       stories: [
