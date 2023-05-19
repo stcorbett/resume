@@ -460,7 +460,7 @@ export default class {
       headerContent: 'engineer',
       communityContent: ['techstars-mentor', 'starterleague', 'scale-well', 'illinois-technology-association', 'esta', '1871', 'improv-everywhere'],
       experiencesContent: ["aba-session", "newline", "provi", "hire-abby", "fibroblast", "crafty", "enova", "hms"],
-      show: ['base', 'performance-cultural'],
+      show: ['base'],
     },
     {
       name: "product-manager",
